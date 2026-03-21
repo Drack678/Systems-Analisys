@@ -1,5 +1,39 @@
 # 🚍 UMOS Project
 
+## 👥 Authors and Contact
+
+### 👩‍💻 Natalie Marino Figueroa  
+- ID: 20232020143  
+- Dept. of Computer Engineering  
+- Universidad Distrital Francisco José de Caldas  
+- 📧 nmarinof@udistrital.edu.co  
+
+---
+
+### 👨‍💻 Edilson Santiago Sepúlveda Cortés  
+- ID: 20231020237  
+- Dept. of Computer Engineering  
+- Universidad Distrital Francisco José de Caldas  
+- 📧 essepulvedac@udistrital.edu.co  
+
+---
+
+### 👨‍💻 Marlon Yecid Riveros Guio  
+- ID: 20231020208  
+- Dept. of Computer Engineering  
+- Universidad Distrital Francisco José de Caldas  
+- 📧 myriverosg@udistrital.edu.co  
+
+---
+
+### 👨‍💻 Juan Esteban Cañón Solorza  
+- ID: 20232020078  
+- Dept. of Computer Engineering  
+- Universidad Distrital Francisco José de Caldas  
+- 📧 jecanons@udistrital.edu.co  
+
+---
+
 ## 📌 Project Overview
 
 The **Urban Mobility Optimization System (UMOS)** is a multimodal route planning and optimization platform designed to improve transportation efficiency for the **Universidad Distrital Francisco José de Caldas** community in Bogotá, Colombia.
@@ -68,39 +102,6 @@ This phase builds on the analysis by proposing a **modular microservices archite
 
 ---
 
-## 👥 Authors and Contact
-
-### 👩‍💻 Natalie Marino Figueroa  
-- ID: 20232020143  
-- Dept. of Computer Engineering  
-- Universidad Distrital Francisco José de Caldas  
-- 📧 nmarinof@udistrital.edu.co  
-
----
-
-### 👨‍💻 Edilson Santiago Sepúlveda Cortés  
-- ID: 20231020237  
-- Dept. of Computer Engineering  
-- Universidad Distrital Francisco José de Caldas  
-- 📧 essepulvedac@udistrital.edu.co  
-
----
-
-### 👨‍💻 Marlon Yecid Riveros Guio  
-- ID: 20231020208  
-- Dept. of Computer Engineering  
-- Universidad Distrital Francisco José de Caldas  
-- 📧 myriverosg@udistrital.edu.co  
-
----
-
-### 👨‍💻 Juan Esteban Cañón Solorza  
-- ID: 20232020078  
-- Dept. of Computer Engineering  
-- Universidad Distrital Francisco José de Caldas  
-- 📧 jecanons@udistrital.edu.co  
-
----
 
 ## 📍 Location
 
