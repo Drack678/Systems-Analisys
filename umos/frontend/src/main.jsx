@@ -1,10 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./styles/index.css";
+import App from "./App.jsx?v=tm";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+const rootEl = document.getElementById("root");
+
+ReactDOM.createRoot(rootEl).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
+
+// Oculta la pantalla de carga una vez React monta
+if (typeof window.__hideSplash === "function") {
+  window.__hideSplash();
+}

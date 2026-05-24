@@ -121,10 +121,6 @@ class AntColonyOptimizer:
                 n for n in graph.get(current, {}) if n not in visited
             ]
 
-            # Si destination es vecino directo, ir directo (greedy)
-            if destination in graph.get(current, {}) and destination not in visited:
-                neighbors = [destination]
-
             if not neighbors:
                 return [], float("inf")
 

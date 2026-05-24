@@ -7,16 +7,13 @@ from app.services.weather_service import get_current_rain
 
 router = APIRouter(prefix="/routes", tags=["Routes"])
 
-
 @router.post("/optimize", response_model=RouteResponse)
-async def optimize_route(req: RouteRequest, db: AsyncSession = Depends(get_db)):
+async def optimize(req: RouteRequest, db: AsyncSession = Depends(get_db)):
     try:
-        service = RouteService(db)
-        return await service.get_optimal_route(req)
+        return await RouteService(db).get_optimal_route(req)
     except ValueError as e:
-        raise HTTPException(status_code=400, detail=str(e))
-
+        raise HTTPException(400, str(e))
 
 @router.get("/weather")
-async def current_weather():
+async def weather():
     return await get_current_rain()
