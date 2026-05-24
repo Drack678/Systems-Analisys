@@ -1,16 +1,15 @@
-import asyncio
-from types import SimpleNamespace
-
-from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select
 
 from app.models.campus import Campus
 from app.models.route_edge import RouteEdge
-from app.schemas.route import RouteRequest, RouteResponse, RouteStep, RouteVariant
-from app.services.aco import ACOConfig, AntColonyOptimizer
-from app.services.osrm_service import get_road_info
-from app.services.traffic_service import compute_edge_factor
+from app.schemas.route import (
+    RouteRequest, RouteResponse, RouteAlternative, RouteStep
+)
+from app.services.aco import AntColonyOptimizer, ACOConfig
 from app.services.weather_service import get_current_rain
+from app.services.traffic_service import compute_edge_factor
+from app.services.osrm_service import get_road_info
 
 
 class RouteService:
@@ -18,230 +17,190 @@ class RouteService:
         self.db = db
 
     async def get_optimal_route(self, req: RouteRequest) -> RouteResponse:
+        # ── 1. Cargar datos base ──────────────────────────────────────────────
         campuses = {
-            c.id: c for c in (await self.db.execute(select(Campus))).scalars().all()
+            c.id: c
+            for c in (await self.db.execute(select(Campus))).scalars().all()
         }
-        edges = list((await self.db.execute(select(RouteEdge))).scalars().all())
+        edges = (await self.db.execute(select(RouteEdge))).scalars().all()
+        edge_map = {(e.origin_id, e.dest_id): e for e in edges}
 
-        if req.origin_id == req.destination_id:
-            raise ValueError("El origen y el destino deben ser diferentes")
         if req.origin_id not in campuses or req.destination_id not in campuses:
-            raise ValueError("Origen o destino no existe")
+            raise ValueError("Campus de origen o destino no encontrado")
 
-        weather = await get_current_rain()
-        apply_rain = req.rain or weather["is_raining"]
-        cfg = ACOConfig(n_ants=35, n_iterations=100, alpha=1.0, beta=2.7)
+        # ── 2. Calcular factores de tráfico por arista ────────────────────────
+        edge_traffic: dict = {}
+        graph:        dict = {cid: {} for cid in campuses}
+        pheromones:   dict = {cid: {} for cid in campuses}
 
-        graph: dict[int, dict[int, float]] = {cid: {} for cid in campuses}
-        pheromones: dict[int, dict[int, float]] = {cid: {} for cid in campuses}
-        edge_info: dict[tuple[int, int], dict] = {}
+        for edge in edges:
+            co = campuses[edge.origin_id]
+            cd = campuses[edge.dest_id]
 
-        # Si una sede nueva no esta conectada en el grafo calibrado del workshop,
-        # agregamos una arista virtual directa para que siempre pueda rutearse.
-        edge_pairs = {(edge.origin_id, edge.dest_id) for edge in edges}
-        for origin_id, dest_id in [
-            (req.origin_id, req.destination_id),
-            (req.destination_id, req.origin_id),
-        ]:
-            if (origin_id, dest_id) not in edge_pairs:
-                origin = campuses[origin_id]
-                dest = campuses[dest_id]
-                edges.append(
-                    SimpleNamespace(
-                        id=None,
-                        origin_id=origin_id,
-                        dest_id=dest_id,
-                        distance_km=0.0,
-                        travel_time=35.0,
-                        transport="TM" if req.transport_mode == "transit" else req.transport_mode.upper(),
-                        pheromone=1.0,
-                    )
-                )
-                edge_pairs.add((origin_id, dest_id))
-
-        road_tasks = [
-            get_road_info(
-                campuses[edge.origin_id].latitude,
-                campuses[edge.origin_id].longitude,
-                campuses[edge.dest_id].latitude,
-                campuses[edge.dest_id].longitude,
-                req.transport_mode,
-            )
-            for edge in edges
-        ]
-        road_results = await asyncio.gather(*road_tasks)
-
-        for edge, road in zip(edges, road_results):
-            origin = campuses[edge.origin_id]
-            dest = campuses[edge.dest_id]
-            traffic_factor, affecting = await compute_edge_factor(
+            factor, affecting = await compute_edge_factor(
                 self.db,
-                origin.latitude,
-                origin.longitude,
-                dest.latitude,
-                dest.longitude,
+                co.latitude, co.longitude,
+                cd.latitude, cd.longitude,
             )
-
-            distance_km = (
-                round(road["distance_m"] / 1000, 2)
-                if road["distance_m"]
-                else edge.distance_km
-            )
-            road_time = (
-                round(road["duration_s"] / 60, 1)
-                if road["duration_s"]
-                else edge.travel_time
-            )
-            base_time = edge.travel_time if req.transport_mode == "transit" else road_time
-            effective_time = base_time * traffic_factor
-            if apply_rain:
-                effective_time *= cfg.rain_penalty
-
-            if req.mode == "shortest":
-                cost = distance_km
-            elif req.mode == "eco":
-                clean_mode_bonus = 0.75 if edge.transport in {"WALK", "BIKE", "CABLE", "TM"} else 1.0
-                cost = (effective_time * 0.7) + (distance_km * 0.3 * clean_mode_bonus)
-            else:
-                cost = effective_time
-
-            graph[edge.origin_id][edge.dest_id] = max(cost, 0.01)
-            pheromones[edge.origin_id][edge.dest_id] = edge.pheromone
-            edge_info[(edge.origin_id, edge.dest_id)] = {
-                "edge": edge,
-                "geometry": road["geometry"],
-                "distance_km": distance_km,
-                "base_time": base_time,
-                "effective_time": effective_time,
-                "traffic_factor": traffic_factor,
-                "events": affecting,
+            edge_traffic[(edge.origin_id, edge.dest_id)] = {
+                "factor":  factor,
+                "events":  affecting,
             }
+            graph[edge.origin_id][edge.dest_id] = {
+                "cost":      edge.travel_time,
+                "transport": edge.transport,
+            }
+            pheromones[edge.origin_id][edge.dest_id] = edge.pheromone
 
-        optimizer = AntColonyOptimizer(cfg)
-        result = optimizer.optimize(
+        # ── 3. Condición de lluvia ────────────────────────────────────────────
+        weather    = await get_current_rain()
+        apply_rain = req.rain or weather["is_raining"]
+
+        # ── 4. Ejecutar ACO ───────────────────────────────────────────────────
+        cfg = ACOConfig(n_ants=40, n_iterations=120, n_best=3)
+        result = AntColonyOptimizer(cfg).optimize(
             graph,
             req.origin_id,
             req.destination_id,
             pheromones,
-            False,
+            apply_rain,
+            req.transport_mode,
         )
 
-        path = result["best_path"]
-        if not path:
-            raise ValueError("No se encontro ruta entre los nodos indicados")
-
-        variants = [self._build_variant("Ruta optima ACO", path, campuses, edge_info)]
-        seen_paths = {tuple(path)}
-
-        for label in ["Alternativa 1", "Alternativa 2"]:
-            penalized = {node: dict(neighbors) for node, neighbors in graph.items()}
-            for a, b in zip(path, path[1:]):
-                if b in penalized.get(a, {}):
-                    penalized[a][b] *= 1.85
-
-            alt = optimizer.optimize(
-                penalized,
-                req.origin_id,
-                req.destination_id,
-                pheromones,
-                False,
-            )
-            alt_path = alt["best_path"]
-            if alt_path and tuple(alt_path) not in seen_paths:
-                seen_paths.add(tuple(alt_path))
-                variants.append(self._build_variant(label, alt_path, campuses, edge_info))
-
-        best_cost = result["best_cost"]
+        # ── 5. Actualizar feromonas en BD (aprendizaje ACO) ───────────────────
+        best_path, best_cost = result["routes"][0]
         delta = cfg.Q / best_cost if best_cost > 0 else 0
-        for a, b in zip(path, path[1:]):
-            edge_db = next((e for e in edges if e.origin_id == a and e.dest_id == b), None)
-            if edge_db:
-                edge_db.pheromone = edge_db.pheromone * (1 - cfg.evaporation) + delta
+
+        for i in range(len(best_path) - 1):
+            e = edge_map.get((best_path[i], best_path[i + 1]))
+            if e:
+                e.pheromone = max(
+                    e.pheromone * (1 - cfg.evaporation) + delta,
+                    cfg.min_pheromone,
+                )
         await self.db.commit()
 
-        selected = variants[0]
+        # ── 6. Construir alternativas con geometría real de calles ────────────
+        all_events_seen: dict = {}
+        alternatives: list[RouteAlternative] = []
+
+        for alt_idx, (path, score) in enumerate(result["routes"]):
+            alt = await self._build_alternative(
+                alt_idx, path, score,
+                campuses, edge_map, edge_traffic,
+                apply_rain, cfg, req.transport_mode,
+            )
+            alternatives.append(alt)
+            for ev in alt._raw_events:
+                all_events_seen[ev.get("id")] = ev
+
+        selected   = alternatives[0]
+        alt_list   = alternatives[1:]
+        all_ev_list = list(all_events_seen.values())
+
         return RouteResponse(
             origin=campuses[req.origin_id].name,
             destination=campuses[req.destination_id].name,
-            total_time=selected.total_time,
-            total_distance=selected.total_distance,
-            transport_modes=selected.transport_modes,
-            steps=selected.steps,
             selected=selected,
-            alternatives=variants[1:],
-            active_traffic_events=self._unique_events(edge_info, path),
+            alternatives=alt_list,
             aco_iterations=result["iterations"],
             rain_penalty_applied=apply_rain,
+            active_traffic_events=all_ev_list,
+            transport_mode=req.transport_mode,
         )
 
-    def _build_variant(
+    # ─────────────────────────────────────────────────────────────────────────
+    async def _build_alternative(
         self,
-        label: str,
-        path: list[int],
-        campuses: dict[int, Campus],
-        edge_info: dict[tuple[int, int], dict],
-    ) -> RouteVariant:
-        steps: list[RouteStep] = []
-        cum_time = 0.0
-        cum_dist = 0.0
-        transport_modes: set[str] = set()
-        geometry: list[list[float]] = []
+        idx:           int,
+        path:          list[int],
+        score:         float,
+        campuses:      dict,
+        edge_map:      dict,
+        edge_traffic:  dict,
+        apply_rain:    bool,
+        cfg:           ACOConfig,
+        mode:          str,
+    ) -> RouteAlternative:
 
-        for index, node_id in enumerate(path):
-            campus = campuses[node_id]
-            transport = ""
-            traffic_factor = 1.0
+        # ── Geometría real de calles via OSRM ─────────────────────────────────
+        full_geometry: list[list[float]] = []
 
-            if index > 0:
-                prev = path[index - 1]
-                info = edge_info.get((prev, node_id))
-                if info:
-                    edge = info["edge"]
-                    cum_time += info["effective_time"]
-                    cum_dist += info["distance_km"]
-                    transport = edge.transport
-                    traffic_factor = info["traffic_factor"]
-                    transport_modes.add(edge.transport)
-                    segment = info["geometry"]
-                    if segment:
-                        geometry.extend(segment if not geometry else segment[1:])
+        for i in range(len(path) - 1):
+            ca = campuses[path[i]]
+            cb = campuses[path[i + 1]]
 
-            steps.append(
-                RouteStep(
-                    campus_id=campus.id,
-                    campus_name=campus.name,
-                    latitude=campus.latitude,
-                    longitude=campus.longitude,
-                    transport=transport,
-                    cumulative_time=round(cum_time, 1),
-                    cumulative_distance=round(cum_dist, 2),
-                    traffic_factor=round(traffic_factor, 2),
-                )
+            info = await get_road_info(
+                ca.latitude,  ca.longitude,
+                cb.latitude,  cb.longitude,
+                mode,
             )
+            seg = info["geometry"]
 
-        if not geometry:
-            geometry = [
-                [campuses[node_id].latitude, campuses[node_id].longitude]
-                for node_id in path
-            ]
+            # Evitar duplicar el punto de unión entre segmentos consecutivos
+            if full_geometry and seg:
+                seg = seg[1:]
+            full_geometry.extend(seg)
 
-        return RouteVariant(
-            label=label,
-            total_time=round(cum_time, 1),
-            total_distance=round(cum_dist, 2),
-            transport_modes=list(transport_modes),
+        # ── Pasos y métricas acumuladas ───────────────────────────────────────
+        steps:     list[RouteStep] = []
+        cum_t  = 0.0
+        cum_d  = 0.0
+        modes_set:  set  = set()
+        raw_events: list = []
+
+        for i, nid in enumerate(path):
+            c   = campuses[nid]
+            tr  = ""
+            tf  = 1.0
+            evs = []
+
+            if i > 0:
+                e = edge_map.get((path[i - 1], nid))
+                if e:
+                    td     = edge_traffic.get((path[i - 1], nid), {})
+                    tf     = td.get("factor", 1.0)
+                    evs    = td.get("events", [])
+                    raw_events.extend(evs)
+
+                    rain_f = (
+                        cfg.rain_penalty
+                        if apply_rain and e.transport in ("CAR", "SITP", "TM")
+                        else 1.0
+                    )
+                    cum_t += e.travel_time * tf * rain_f
+                    cum_d += e.distance_km
+                    tr     = e.transport
+                    modes_set.add(e.transport)
+
+            steps.append(RouteStep(
+                campus_id=c.id,
+                campus_name=c.name,
+                latitude=c.latitude,
+                longitude=c.longitude,
+                transport=tr,
+                cumulative_time=round(cum_t, 1),
+                cumulative_distance=round(cum_d, 2),
+                traffic_factor=round(tf, 2),
+                traffic_events=[x["label"] for x in evs if "label" in x],
+            ))
+
+        labels = {
+            0: "🥇 Ruta óptima",
+            1: "🥈 Alternativa A",
+            2: "🥉 Alternativa B",
+        }
+
+        alt = RouteAlternative(
+            index=idx,
+            label=labels.get(idx, f"Ruta {idx + 1}"),
+            total_time=round(cum_t, 1),
+            total_distance=round(cum_d, 2),
+            geometry=full_geometry,
             steps=steps,
-            geometry=geometry,
-            path=path,
+            transport_modes=list(modes_set),
+            score=round(score, 2),
         )
-
-    def _unique_events(
-        self,
-        edge_info: dict[tuple[int, int], dict],
-        path: list[int],
-    ) -> list[dict]:
-        events: dict[int, dict] = {}
-        for a, b in zip(path, path[1:]):
-            for event in edge_info.get((a, b), {}).get("events", []):
-                events[event["id"]] = event
-        return list(events.values())
+        # atributo extra para que el caller pueda leer los eventos sin schema
+        alt._raw_events = raw_events
+        return alt
