@@ -1,53 +1,50 @@
-import axios from "axios";
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000/api/v1";
 
-const api = axios.create({
-  baseURL: "http://localhost:8000/api/v1",
-  timeout: 30000,
-});
+async function request(path, options = {}) {
+  const res = await fetch(`${API_BASE}${path}`, {
+    headers: { "Content-Type": "application/json", ...options.headers },
+    ...options,
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.detail || res.statusText);
+  }
+  return res.json();
+}
 
-// ── Campuses ─────────────────────────────────────────────────────────────────
-export const getCampuses = () =>
-  api.get("/campuses/").then(r => r.data);
+export const getCampuses = () => request("/campuses/");
+export const getWeather = () => request("/routes/weather");
 
-// ── Rutas ────────────────────────────────────────────────────────────────────
 export const optimizeRoute = (originId, destinationId, transportMode, rain = false) =>
-  api.post("/routes/optimize", {
-    origin_id:      originId,
-    destination_id: destinationId,
-    transport_mode: transportMode,
-    rain,
-  }).then(r => r.data);
+  request("/routes/optimize", {
+    method: "POST",
+    body: JSON.stringify({
+      origin_id: originId,
+      destination_id: destinationId,
+      transport_mode: transportMode,
+      rain,
+    }),
+  });
 
-export const getWeather = () =>
-  api.get("/routes/weather").then(r => r.data);
+export const computeRoute = (body) =>
+  request("/routes/compute", { method: "POST", body: JSON.stringify(body) });
 
-// ── Tráfico ───────────────────────────────────────────────────────────────────
-export const getTrafficEvents = () =>
-  api.get("/traffic/events").then(r => r.data);
-
+export const getTrafficEvents = () => request("/traffic/events");
 export const createTrafficEvent = (data) =>
-  api.post("/traffic/events", data).then(r => r.data);
-
+  request("/traffic/events", { method: "POST", body: JSON.stringify(data) });
 export const resolveTrafficEvent = (id) =>
-  api.patch(`/traffic/events/${id}/resolve`).then(r => r.data);
-
-export const getEventTypes = () =>
-  api.get("/traffic/event-types").then(r => r.data);
-
+  request(`/traffic/events/${id}/resolve`, { method: "PATCH" });
 export const simulateTraffic = (scenario) =>
-  api.post(`/traffic/simulations/${scenario}`).then(r => r.data);
+  request(`/traffic/simulations/${scenario}`, { method: "POST" });
 
 export const getTransmilenioRecommendations = (origin, destination) =>
-  api.get("/transmilenio/recommendations", {
-    params: {
-      origin_lat: origin.latitude,
-      origin_lon: origin.longitude,
-      dest_lat: destination.latitude,
-      dest_lon: destination.longitude,
-    },
-  }).then(r => r.data);
+  request(
+    `/transmilenio/recommendations?origin_lat=${origin.latitude}&origin_lon=${origin.longitude}` +
+    `&dest_lat=${destination.latitude}&dest_lon=${destination.longitude}` +
+    `&origin_name=${encodeURIComponent(origin.name)}&dest_name=${encodeURIComponent(destination.name)}`
+  );
 
-export const getNearbyTransmilenio = (lat, lon, radiusM = 1000) =>
-  api.get("/transmilenio/routes/nearby", {
-    params: { lat, lon, radius_m: radiusM },
-  }).then(r => r.data);
+export const getDashboardStatus = () => request("/dashboard/status");
+export const getDataFreshness = () => request("/dashboard/freshness");
+export const getEquityMetrics = () => request("/equity/metrics");
+export const getAlerts = () => request("/alerts/");

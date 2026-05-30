@@ -1,7 +1,4 @@
-version: "3.9"
-
 services:
-
   db:
     image: postgis/postgis:15-3.3
     container_name: umos_db
@@ -22,6 +19,7 @@ services:
   redis:
     image: redis:7-alpine
     container_name: umos_redis
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
     ports:
       - "6379:6379"
     healthcheck:
@@ -36,6 +34,9 @@ services:
       dockerfile: Dockerfile
     container_name: umos_backend
     env_file: ./backend/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://umos_user:umos_pass@db:5432/umos_db
+      REDIS_URL: redis://redis:6379
     ports:
       - "8000:8000"
     depends_on:
@@ -52,6 +53,8 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     container_name: umos_frontend
+    environment:
+      VITE_API_URL: http://localhost:8000/api/v1
     ports:
       - "5173:5173"
     depends_on:
