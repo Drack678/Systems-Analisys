@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Facultad de Ingeniería",
+    "code": "FING",
+    "address": "Carrera 8 # 40-62, Chapinero",
+    "latitude": 4.627767176829558,
+    "longitude": -74.06579004447724,
+    "description": "Chapinero"
+
+  },
+  {
+    "id": 2,
+    "name": "Facultad de Ciencias y Educación - Macarena A",
+    "code": "FCEN-A",
+    "address": "Carrera 3 # 26A-40, Santa Fe",
+    "latitude": 4.613613124250828,
+    "longitude": -74.0640048037041,
+    "description": "Santa Fe"
+  },
+  {
+    "id": 3,
+    "name": "Facultad de Ciencias y Educación - Macarena B",
+    "code": "FCEN-B",
+    "address": "Carrera 4A # 26D-54, Santa Fe",
+    "latitude": 4.613869303651651,
+    "longitude": -74.06578453316197,
+    "description": "Santa Fe"
+  },
+  {
+    "id": 4,
+    "name": "Facultad de Medio Ambiente y Recursos Naturales",
+    "code": "FAMN",
+    "address": "Carrera 5 Este # 15-82, Santa Fe",
+    "latitude": 4.585982851302289,
+    "longitude": -74.07186536322232,
+    "description": "Santa Fe"
+  },
+  {
+    "id": 5,
+    "name": "Facultad Tecnológica",
+    "code": "FTEC",
+    "address": "Calle 68D Bis A Sur # 49F-70, Kennedy",
+    "latitude": 4.579671600340146,
+    "longitude": -74.15758749294102,
+    "description": "Kennedy"
+  },
+  {
+    "id": 6,
+    "name": "Facultad de Artes ASAB",
+    "code": "ASAB",
+    "address": "Carrera 13 # 14-69, La Candelaria",
+    "latitude": 4.604596739405021,
+    "longitude": -74.07865116760625,
+    "description": "La Candelaria"
+  }
+]
