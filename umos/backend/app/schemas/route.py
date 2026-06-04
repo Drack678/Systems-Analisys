@@ -23,14 +23,14 @@ class ComputeRouteRequest(BaseModel):
     departure_time: datetime | None = None
     preferences: RoutePreferences = Field(default_factory=RoutePreferences)
     rain_intensity: float | None = None
-transport_mode: Literal["driving", "transit", "sitp", "tm", "cycling", "walking"] = "transit"
+    transport_mode: Literal["driving", "transit", "sitp", "tm", "cycling", "walking"] = "transit"
 
 
 class RouteRequest(BaseModel):
     origin_id: int
     destination_id: int
     mode: Literal["fastest", "shortest", "eco"] = "fastest"
-    transport_mode: Literal["driving", "transit", "cycling", "walking"] = "driving"
+    transport_mode: Literal["driving", "transit", "sitp", "tm", "cycling", "walking"] = "driving"
     rain: bool = False
 
 
