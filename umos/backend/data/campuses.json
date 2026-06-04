@@ -7,7 +7,6 @@
     "latitude": 4.627767176829558,
     "longitude": -74.06579004447724,
     "description": "Chapinero"
-
   },
   {
     "id": 2,
@@ -40,10 +39,10 @@
     "id": 5,
     "name": "Facultad Tecnológica",
     "code": "FTEC",
-    "address": "Calle 68D Bis A Sur # 49F-70, Kennedy",
+    "address": "Calle 68D Bis A Sur # 49F-70, Ciudad Bolívar",
     "latitude": 4.579671600340146,
     "longitude": -74.15758749294102,
-    "description": "Kennedy"
+    "description": "Ciudad Bolívar"
   },
   {
     "id": 6,
@@ -53,5 +52,95 @@
     "latitude": 4.604596739405021,
     "longitude": -74.07865116760625,
     "description": "La Candelaria"
+  },
+  {
+    "id": 100,
+    "name": "TM Estación Calle 45",
+    "code": "TM-CL45",
+    "address": "Av. Caracas con Calle 45",
+    "latitude": 4.6357,
+    "longitude": -74.0651,
+    "description": "Chapinero"
+  },
+  {
+    "id": 101,
+    "name": "TM Estación Profamilia",
+    "code": "TM-PROF",
+    "address": "Av. Caracas con Calle 38",
+    "latitude": 4.6275,
+    "longitude": -74.0688,
+    "description": "Chapinero"
+  },
+  {
+    "id": 102,
+    "name": "TM Estación Av. Jiménez",
+    "code": "TM-AVJIM",
+    "address": "Av. Caracas con Av. Jiménez",
+    "latitude": 4.6011,
+    "longitude": -74.0735,
+    "description": "La Candelaria"
+  },
+  {
+    "id": 103,
+    "name": "TM Estación Universidades",
+    "code": "TM-UNIV",
+    "address": "Calle 19 con Carrera 3",
+    "latitude": 4.6028,
+    "longitude": -74.0701,
+    "description": "La Candelaria"
+  },
+  {
+    "id": 104,
+    "name": "TM Portal Tunal",
+    "code": "TM-PTUNAL",
+    "address": "Av. Boyacá con Av. Villavicencio",
+    "latitude": 4.5762,
+    "longitude": -74.1339,
+    "description": "Tunjuelito"
+  },
+  {
+    "id": 110,
+    "name": "SITP Carrera 8 con Calle 40",
+    "code": "SITP-K8C40",
+    "address": "Carrera 8 con Calle 40, Chapinero",
+    "latitude": 4.6275,
+    "longitude": -74.0658,
+    "description": "Chapinero"
+  },
+  {
+    "id": 111,
+    "name": "SITP Carrera 3 con Calle 26",
+    "code": "SITP-K3C26",
+    "address": "Carrera 3 con Calle 26, Santa Fe",
+    "latitude": 4.6138,
+    "longitude": -74.0644,
+    "description": "Santa Fe"
+  },
+  {
+    "id": 112,
+    "name": "SITP Carrera 13 con Calle 14",
+    "code": "SITP-K13C14",
+    "address": "Carrera 13 con Calle 14, La Candelaria",
+    "latitude": 4.6050,
+    "longitude": -74.0788,
+    "description": "La Candelaria"
+  },
+  {
+    "id": 113,
+    "name": "SITP Carrera 5 Este con Calle 16",
+    "code": "SITP-K5C16",
+    "address": "Carrera 5 Este con Calle 16, Santa Fe",
+    "latitude": 4.5862,
+    "longitude": -74.0716,
+    "description": "Santa Fe"
+  },
+  {
+    "id": 114,
+    "name": "SITP Calle 68 Sur con Carrera 49F",
+    "code": "SITP-CL68",
+    "address": "Calle 68 Sur con Carrera 49F, Ciudad Bolívar",
+    "latitude": 4.5800,
+    "longitude": -74.1565,
+    "description": "Ciudad Bolívar"
   }
 ]

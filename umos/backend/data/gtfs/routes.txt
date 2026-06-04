@@ -1,0 +1,1025 @@
+agency_id,route_color,route_id,route_long_name,route_short_name,route_text_color,route_type
+1,ff0000,10036,San Mateo,G45,ffffff,3
+1,ff0000,10039,Museo Nacional,M47,ffffff,3
+1,ff0000,10056,Museo Nacional,2,ffffff,3
+1,ff0000,10067,Portal Sur,G47,ffffff,3
+1,ff0000,10070,Portal 20 de Julio,2,ffffff,3
+1,ff0000,10073,Portal Suba,C25,ffffff,3
+1,ff0000,10074,Portal 20 de Julio,L25,ffffff,3
+1,ff0000,10075,Portal Norte,B10,ffffff,3
+1,ff0000,10076,Portal 80,D10,ffffff,3
+1,ff0000,10082,Banderas,F23,ffffff,3
+1,ff0000,11163,P. Américas,F23,ffffff,3
+1,ff0000,11231,Universidades,1,ffffff,3
+1,ff0000,11272,Calle 161,B50,ffffff,3
+1,ff0000,11381,PORTAL TUNAL,H21,ffffff,3
+1,ff0000,11382,PORTAL 80,D21,ffffff,3
+1,ff0000,11453,Aguas,J70,ffffff,3
+1,ff0000,11458,San Mateo,G43,ffffff,3
+1,ff0000,11463,G. Santander,G12,ffffff,3
+1,ff0000,11627,Polo FINCOMERCIO,7,ffffff,3
+1,ff0000,11712,Aguas,J23,ffffff,3
+1,ff0000,11724,Museo Nacional,M51,ffffff,3
+1,ff0000,11725,PORTAL AMÉRICAS,F51,ffffff,3
+1,ff0000,11747,Héroes,4,ffffff,3
+1,ff0000,11851,Portal Eldorado,1,ffffff,3
+1,ff0000,11853,Portal Sur,4,ffffff,3
+1,ff0000,11856,Portal suba,7,ffffff,3
+1,ff0000,11868,Portal Américas,F32,ffffff,3
+1,ff0000,11870,Bicentenario,L41,ffffff,3
+1,ff0000,11871,San Mateo,G42,ffffff,3
+1,ff0000,11872,Portal Norte,B46,ffffff,3
+1,ff0000,11873,Portal Américas,F60,ffffff,3
+1,ff0000,11875,Portal Américas,F26,ffffff,3
+1,ff0000,11876,P. Norte,B12,ffffff,3
+1,ff0000,11878,San Mateo,G41,ffffff,3
+1,ff0000,11879,7 de Agosto,E42,ffffff,3
+1,ff0000,11885,Corferias,3,ffffff,3
+1,ff0000,11886,Portal Tunal,3,ffffff,3
+1,ff0000,11907,PORTAL SUR,G30,ffffff,3
+1,ff0000,11908,PORTAL SUBA,C30,ffffff,3
+1,ff0000,11909,Portal Suba,C17,ffffff,3
+1,ff0000,11910,Portal Usme,H17,ffffff,3
+1,ff0000,11913,UNIVERSIDADES,J73,ffffff,3
+1,ff0000,11914,P.SUBA,C73,ffffff,3
+1,ff0000,11926,Portal Eldorado,K43,ffffff,3
+1,ff0000,11930,Portal 80,D55,ffffff,3
+1,ff0000,11931,Portal Sur,G45,ffffff,3
+1,ff0000,11932,P. Suba,C50,ffffff,3
+1,ff0000,11997,San Mateo,G43,ffffff,3
+1,ff0000,12010,Portal 80,6,ffffff,3
+1,ff0000,12012,PORTAL 20 DE JULIO,L18,ffffff,3
+1,ff0000,12030,P. 20 DE JULIO,L10,ffffff,3
+1,ff0000,12047,P.SUBA,C19,ffffff,3
+1,ff0000,12048,Banderas,F19,ffffff,3
+1,ff0000,12066,Portal 80,D20,ffffff,3
+1,ff0000,12067,Portal Usme,H20,ffffff,3
+1,ff0000,12070,Aguas,J23,ffffff,3
+1,ff0000,12075,Toberín,B55,ffffff,3
+1,ff0000,12078,San Mateo,G46,ffffff,3
+1,ff0000,12242,Universidades,6,ffffff,3
+1,ff0000,12243,P. 80,D24,ffffff,3
+1,ff0000,12428,Terminal,B16,ffffff,3
+1,ff0000,12462,P. ELDORADO,K10,ffffff,3
+1,ff0000,12467,Portal Suba,C15,ffffff,3
+1,ff0000,12558,P. TUNAL,H13,ffffff,3
+1,ff0000,12576,Universidades,J74,ffffff,3
+1,ff0000,12612,Portal Norte,B28,ffffff,3
+1,ff0000,12614,Polo,A61,ffffff,3
+1,ff0000,12615,Portal Américas,F61,ffffff,3
+1,ff0000,12616,Calle 76,A60,ffffff,3
+1,ff0000,12621,Alcalá,B26,ffffff,3
+1,ff0000,12622,NQS Calle 75,E32,ffffff,3
+1,ff0000,12639,Av. Jiménez,5,ffffff,3
+1,ff0000,12641,Guatoque,8,ffffff,3
+1,ff0000,12644,Portal Tunal,H27,ffffff,3
+1,ff0000,12646,P.USME,H75,ffffff,3
+1,ff0000,12648,P.USME,H75,ffffff,3
+1,ff0000,12652,PORTAL 20 DE JULIO,L18,ffffff,3
+1,ff0000,12811,Portal Usme,H54,ffffff,3
+1,ff0000,12813,Portal Tunal,H15,ffffff,3
+1,ff0000,12814,Portal Norte,B13,ffffff,3
+1,ff0000,12815,Portal Américas,F28,ffffff,3
+1,ff0000,12816,Terminal,B11,ffffff,3
+1,ff0000,12817,Portal Sur,G11,ffffff,3
+1,ff0000,12818,Universidades,J24,ffffff,3
+1,ff0000,12819,Alcalá,B23,ffffff,3
+1,ff0000,12820,Portal Eldorado,K23,ffffff,3
+1,ff0000,12821,Portal Usme,H76,ffffff,3
+1,ff0000,12822,Universidades,J76,ffffff,3
+1,ff0000,12823,CAD,E48,ffffff,3
+1,ff0000,12824,San Mateo,G48,ffffff,3
+1,ff0000,12825,Museo Nacional,M83,ffffff,3
+1,ff0000,12826,Portal Usme,H83,ffffff,3
+1,ff0000,12841,Portal Américas,5,ffffff,3
+1,ff0000,12842,Portal Norte,B75,ffffff,3
+1,ff0000,12843,PElDorado,K16,ffffff,3
+1,ff0000,12871,Portal 80,D22,ffffff,3
+1,ff0000,12872,Portal Sur,G22,ffffff,3
+1,ff0000,12873,P. Sur,G12,ffffff,3
+1,ff0000,12874,P. Norte,B12,ffffff,3
+1,ff0000,12877,Portal Eldorado,K54,ffffff,3
+1,ff0000,12878,Portal Eldorado,K54,ffffff,3
+1,ff0000,12879,Toberín,B72,ffffff,3
+1,ff0000,12881,P. Usme,H72,ffffff,3
+1,ff0000,12928,Terminal,8,ffffff,3
+1,ff0000,12931,Flores Temporal,A52,ffffff,3
+1,ff0000,12932,Portal Sur,G52,ffffff,3
+1,ff0000,12933,Portal Norte,B74,ffffff,3
+1,ff0000,12970,Portal Norte,B27,ffffff,3
+1,ff0000,12971,Terminal,B18,ffffff,3
+2,00ff00,10895,Avenida Bosa ||  Portal Sur,10-1,ffffff,3
+2,00ff00,10896,Portal Sur,10-1,ffffff,3
+2,00ff00,10897,Avenida Bosa,10-1,ffffff,3
+2,00ff00,10899,Bosa Centro ||  Portal Sur,10-2,ffffff,3
+2,00ff00,10900,Portal Sur,10-2,ffffff,3
+2,00ff00,10901,Bosa Centro,10-2,ffffff,3
+2,00ff00,10903,Portal Sur,10-3,ffffff,3
+2,00ff00,10906,Bosa Laureles ||  Portal Sur,10-4,ffffff,3
+2,00ff00,10907,Bosa Laureles ||  Portal Sur,10-4,ffffff,3
+2,00ff00,10908,Portal Sur,10-4,ffffff,3
+2,00ff00,10909,Bosa Laureles,10-4,ffffff,3
+2,00ff00,10911,Alameda ||  Portal Sur,10-3C,ffffff,3
+2,00ff00,10912,Alameda,10-3C,ffffff,3
+2,00ff00,10913,Kennedy Central ||  Banderas,8-1,ffffff,3
+2,00ff00,10915,Kennedy Central,8-1,ffffff,3
+2,00ff00,10917,Terminal Sur ||  Portal Sur,10-5,ffffff,3
+2,00ff00,10918,Terminal Sur Extensión ||  Portal Sur Extensión,10-5,ffffff,3
+2,00ff00,10919,Portal Sur,10-5,ffffff,3
+2,00ff00,10922,Olarte ||  Portal Sur,10-8,ffffff,3
+2,00ff00,10923,Biblioteca Tintal ||    Banderas,8-5,ffffff,3
+2,00ff00,10927,Candelaria ||  Portal Tunal,6-1,ffffff,3
+2,00ff00,10930,Jardines ||  Portal Norte,2-2,ffffff,3
+2,00ff00,10932,Jardines,2-2,ffffff,3
+2,00ff00,10936,Álamos ||  Portal El Dorado,16-3,ffffff,3
+2,00ff00,10937,Bosa La Libertad ||  Portal Américas,9-3,ffffff,3
+2,00ff00,10938,Juan Rey ||  Portal 20 de Julio,13-6,ffffff,3
+2,00ff00,10939,Portal Américas,9-3,ffffff,3
+2,00ff00,10940,Bosa La Libertad,9-3,ffffff,3
+2,00ff00,10941,Álamos ||  153A06 Centro Industrial La Rabida,16-3,ffffff,3
+2,00ff00,10945,El Muelle ||  Portal El Dorado,16-4,ffffff,3
+2,00ff00,10947,Kennedy Hospital ||  Banderas,8-2,ffffff,3
+2,00ff00,10948,Casa Linda ||  Portal Tunal,6-1C,ffffff,3
+2,00ff00,10949,Banderas,8-2,ffffff,3
+2,00ff00,10950,Kennedy Hospital,8-2,ffffff,3
+2,00ff00,10951,El Muelle ||  202A05 Portal de Santa Inés,16-4,ffffff,3
+2,00ff00,10956,Portal Sur,CSM,ffffff,3
+2,00ff00,10957,San Mateo,CSM,ffffff,3
+2,00ff00,10958,San Francisco ||  Portal Tunal,6-2,ffffff,3
+2,00ff00,10960,Tierra Grata ||  Portal El Dorado,16-1,ffffff,3
+2,00ff00,10963,Tierra Grata ||  201A05 Centro Artesanal El Dorado,16-1,ffffff,3
+2,00ff00,10965,Aeropuerto,16-14,ffffff,3
+2,00ff00,10968,Aeropuerto,16-14,ffffff,3
+2,00ff00,10970,Juan Rey ||  Portal 20 de Julio,13-6,ffffff,3
+2,00ff00,10971,Aeropuerto ||  Portal El Dorado,16-14,ffffff,3
+2,00ff00,10972,Tesoro ||  Portal Tunal,6-5,ffffff,3
+2,00ff00,10973,Estrella del Sur ||  Portal Tunal,6-5,ffffff,3
+2,00ff00,10974,Arabia ||  Arabia,6-5,ffffff,3
+2,00ff00,10975,Arabia,6-5,ffffff,3
+2,00ff00,10976,Portal Tunal,6-5,ffffff,3
+2,00ff00,10979,Corabastos ||  Banderas,8-4,ffffff,3
+2,00ff00,10980,Banderas,8-4,ffffff,3
+2,00ff00,10981,Corabastos,8-4,ffffff,3
+2,00ff00,10990,Álamos ||  Portal 80,1-1,ffffff,3
+2,00ff00,10991,Timiza ||  Banderas,8-6,ffffff,3
+2,00ff00,10992,Banderas,8-6,ffffff,3
+2,00ff00,10993,Timiza,8-6,ffffff,3
+2,00ff00,10996,Tihuaque ||  Portal 20 de Julio,13-9,ffffff,3
+2,00ff00,10997,San Isidro ||  Portal 20 de Julio,L820,ffffff,3
+2,00ff00,10999,Garces Navas ||  Portal 80,1-2,ffffff,3
+2,00ff00,11001,Arabia ||  Portal Tunal,6-5C,ffffff,3
+2,00ff00,11002,Guaymaral ||  Portal Norte,B924,ffffff,3
+2,00ff00,11003,Portal Tunal,6-5C,ffffff,3
+2,00ff00,11004,Arabia,6-5C,ffffff,3
+2,00ff00,11005,Resurrección ||  Portal 20 de Julio,13-13,ffffff,3
+2,00ff00,11008,Libertadores ||  Portal 20 de Julio,13-12,ffffff,3
+2,00ff00,11010,Roma ||  Portal Amércias,9-10,ffffff,3
+2,00ff00,11011,San Joaquín ||  Portal Tunal,6-7,ffffff,3
+2,00ff00,11015,Villas de Granada ||  Portal 80,1-3,ffffff,3
+2,00ff00,11016,Castilla ||  Banderas,8-3,ffffff,3
+2,00ff00,11018,Castilla ||  Banderas,8-3,ffffff,3
+2,00ff00,11027,Mirandela ||  Portal Norte,2-1,ffffff,3
+2,00ff00,11028,Mirandela,2-1,ffffff,3
+2,00ff00,11029,Puente Guadua ||  Portal 80,1-8,ffffff,3
+2,00ff00,11031,Avenida Tintal ||  Portal Américas,9-5,ffffff,3
+2,00ff00,11032,Portal Américas,9-5,ffffff,3
+2,00ff00,11033,San José ||  Portal Norte,2-7,ffffff,3
+2,00ff00,11034,Quirigua ||  Portal 80,1-7,ffffff,3
+2,00ff00,11035,San José ||  Portal Norte Ciclovía,2-7,ffffff,3
+2,00ff00,11036,Quirigua ||  Portal 80,1-7,ffffff,3
+2,00ff00,11037,Portal Norte,2-7,ffffff,3
+2,00ff00,11038,San José,2-7,ffffff,3
+2,00ff00,11040,Quirigua  ||  Portal 80,1-7,ffffff,3
+2,00ff00,11042,Bosa Independencia ||  Portal Américas,9-7,ffffff,3
+2,00ff00,11043,Porvenir ||  Portal Américas,9-8,ffffff,3
+2,00ff00,11044,Porvenir,9-8,ffffff,3
+2,00ff00,11045,Porvenir,9-8,ffffff,3
+2,00ff00,11046,Bosa Santafé ||  Portal Américas,9-9,ffffff,3
+2,00ff00,11048,Portal Américas,9-9,ffffff,3
+2,00ff00,11051,Bosa Santafé,9-9,ffffff,3
+2,00ff00,11054,Portal Américas,9-2,ffffff,3
+2,00ff00,11055,Metrovivienda ||  Portal Américas,9-2,ffffff,3
+2,00ff00,11057,Metrovivienda ||  Portal Américas,9-2,ffffff,3
+2,00ff00,11083,Cortijo ||  Portal 80,1-4,ffffff,3
+2,00ff00,11084,Ciudadela Colsubsidio ||  Portal 80,1-5,ffffff,3
+2,00ff00,11086,Bolivia Oriental ||  Portal 80,1-6,ffffff,3
+2,00ff00,11088,Bolivia Bochica II ||  Portal 80,1-10,ffffff,3
+2,00ff00,11089,Bolivia Bochica II,1-10,ffffff,3
+2,00ff00,12013,Villa Gloria ||  Portal Tunal,6-12,ffffff,3
+2,00ff00,12014,Portal Tunal,6-12,ffffff,3
+2,00ff00,12016,Villa Gloria,6-12,ffffff,3
+2,00ff00,12017,San Joaquín  ||  Portal Tunal,6-7,ffffff,3
+2,00ff00,12018,Portal Tunal,6-7,ffffff,3
+2,00ff00,12019,San Joaquín,6-7,ffffff,3
+2,00ff00,12282,Banderas,8-1,ffffff,3
+2,00ff00,12304,Casablanca ||  Portal Américas,9-1,ffffff,3
+2,00ff00,12325,Villa del Cerro ||  Portal 20 de Julio,13-10,ffffff,3
+2,00ff00,12349,Arborizadora Alta ||  Portal Tunal,6-9,ffffff,3
+2,00ff00,12350,Arborizadora Alta ||  Portal Tunal,6-9,ffffff,3
+2,00ff00,12351,Arborizadora Alta ||  Portal Tunal,6-9,ffffff,3
+2,00ff00,12352,Juan José Rondón ||  Portal Tunal,6-6,ffffff,3
+2,00ff00,12353,Juan José Rondón ||  Portal Tunal,6-6,ffffff,3
+2,00ff00,12354,Paraíso  ||  Portal Tunal,6-4,ffffff,3
+2,00ff00,12355,Paraíso ||  Portal Tunal,6-4,ffffff,3
+2,00ff00,12356,Paraíso ||  Portal Tunal,6-4,ffffff,3
+2,00ff00,12357,Paraíso,6-4,ffffff,3
+2,00ff00,12358,Paraíso,6-4,ffffff,3
+2,00ff00,12360,Vista Hermosa ||  Portal Tunal,6-8,ffffff,3
+2,00ff00,12361,Vista Hermosa ||  Portal Tunal,6-8,ffffff,3
+2,00ff00,12362,Portal Tunal,6-8,ffffff,3
+2,00ff00,12363,Vista Hermosa ||  Portal Tunal,6-8,ffffff,3
+2,00ff00,12440,Villas del dorado ||  Portal 80,1-9,ffffff,3
+2,00ff00,12551,Engativá Centro ||  Portal El Dorado,16-2,ffffff,3
+2,00ff00,12552,Engativá Centro ||  208B05 Br. Marandú,16-2,ffffff,3
+2,00ff00,12553,La Faena ||  Portal El Dorado,16-6,ffffff,3
+2,00ff00,12554,La Faena ||  110A05 Br.Sabana del Dorado,16-6,ffffff,3
+2,00ff00,12565,Portal Sur,9-3,ffffff,3
+2,00ff00,12566,Bosa La Libertad,9-3,ffffff,3
+2,00ff00,12567,Bosa La Libertad ||  Portal Sur,9-3,ffffff,3
+2,00ff00,12802,Castilla ||  Estación Banderas,8-3,ffffff,3
+2,00ff00,12806,San Antonio ||  Portal Norte,2-3,ffffff,3
+2,00ff00,12807,San Antonio ||  Portal Norte,2-3,ffffff,3
+2,00ff00,12808,San Antonio,2-3,ffffff,3
+2,00ff00,12810,Biblioteca Tintal ||  Estación Banderas,8-5,ffffff,3
+2,00ff00,12812,Biblioteca Tintal ||  Estación Banderas,8-5,ffffff,3
+2,00ff00,12830,Andalucia ||  Portal Norte,2-11,ffffff,3
+2,00ff00,12831,El Codito ||  Portal Norte,2-4,ffffff,3
+2,00ff00,12832,El Codito,2-4,ffffff,3
+2,00ff00,12836,Verbenal ||  Portal Norte,2-10,ffffff,3
+2,00ff00,12837,Verbenal,2-10,ffffff,3
+2,00ff00,12847,Expreso Oriental CL 170 ||  Portal Norte,2-8,ffffff,3
+2,00ff00,12849,Portal Norte,2-5,ffffff,3
+2,00ff00,12851,San Cristóbal Norte ||  Portal Norte,2-5,ffffff,3
+2,00ff00,12858,Alban Carbonell ||  Portal Sur,10-3,ffffff,3
+2,00ff00,12859,Alban Carbonell ||  Portal Sur,10-3,ffffff,3
+2,00ff00,12860,Alban Carbonell,10-3,ffffff,3
+2,00ff00,12886,Roma ||  Portal Amércias Ciclovía,9-10,ffffff,3
+2,00ff00,12904,Franja Seca ||  Portal Americas,9-11,ffffff,3
+2,00ff00,12911,Patio Bonito ||  Portal Américas,9-4,ffffff,3
+2,00ff00,12912,Portal Américas,9-1,ffffff,3
+2,00ff00,12913,Casablanca,9-1,ffffff,3
+2,00ff00,12914,Portal Américas,9-10,ffffff,3
+2,00ff00,12915,Roma,9-10,ffffff,3
+2,00ff00,12916,Portal Américas,9-4,ffffff,3
+2,00ff00,12917,Patio Bonito,9-4,ffffff,3
+2,00ff00,12918,Portal Américas,9-7,ffffff,3
+2,00ff00,12919,Bosa La Independencia,9-7,ffffff,3
+2,00ff00,12920,Metrovivienda,9-2,ffffff,3
+2,00ff00,12975,Peninsula ||  Portal 20 de Julio,13-7,ffffff,3
+3,0000ff,10004,H710 El Progreso  || H710 Portal Usme,HH710,ffffff,3
+3,0000ff,10005,H710 El Progreso,HH710,ffffff,3
+3,0000ff,10006,Modelia,17-3,ffffff,3
+3,0000ff,10010,Modelia ||  Estación Av Rojas,17-3,ffffff,3
+3,0000ff,10011,Estación Av Rojas,17-3,ffffff,3
+3,0000ff,10012,G712 Bosa Estacion || H712 El Uval,HG712,ffffff,3
+3,0000ff,10174,Est. Calle 100,A305,ffffff,3
+3,0000ff,10175,El Recodo,K305,ffffff,3
+3,0000ff,10182,A153 Centro || C153 Suba La Gaitana,CA153,ffffff,3
+3,0000ff,10183,A153 Centro || C153 Suba La Gaitana Ciclovía,CA153,ffffff,3
+3,0000ff,10224,El Refugio,K707,ffffff,3
+3,0000ff,10227,El Uval,H704,ffffff,3
+3,0000ff,10235,El Uval,H707,ffffff,3
+3,0000ff,10245,B144 Clínica El Bosque || C144 Bilbao,CB144,ffffff,3
+3,0000ff,10248,B138 Cedritos || C138 Bilbao,CB138,ffffff,3
+3,0000ff,10254,Perdomo,H613,ffffff,3
+3,0000ff,10255,Horacio Orjuela,L613,ffffff,3
+3,0000ff,10267,Portal Sur ||  Potosí,T04,ffffff,3
+3,0000ff,10271,Suba Nogales,C154,ffffff,3
+3,0000ff,10272,A617 Centro || H617 Perdomo Ciclovía,HA617,ffffff,3
+3,0000ff,10275,A617 Centro || H617 Perdomo,HA617,ffffff,3
+3,0000ff,10282,Ciudadela Usme,H724,ffffff,3
+3,0000ff,10290,D630 Morato || H630 Arborizadora Alta,HD630,ffffff,3
+3,0000ff,10292,Zona Franca ||  Portal Eldorado,16-8,ffffff,3
+3,0000ff,10293,Portal Eldorado,16-8,ffffff,3
+3,0000ff,10294,Zona Franca,16-8,ffffff,3
+3,0000ff,10296,Montevideo,K724,ffffff,3
+3,0000ff,10299,H632 Villa Gloria || H632 General Santander,HH632,ffffff,3
+3,0000ff,10302,D717 Bonanza || H717 Usme Centro,HD717,ffffff,3
+3,0000ff,10304,La Felicidad ||  Est. Av. Rojas,K301,ffffff,3
+3,0000ff,10305,Villemar ||  Portal Eldorado,16-10,ffffff,3
+3,0000ff,10306,Est. Av. Rojas,K301,ffffff,3
+3,0000ff,10307,Portal Eldorado,16-10,ffffff,3
+3,0000ff,10309,Diana Turbay,H131,ffffff,3
+3,0000ff,10312,Bilbao,C131,ffffff,3
+3,0000ff,10319,Santa Librada ||  Portal Usme,3-2,ffffff,3
+3,0000ff,10321,Diana Turbay Ciclovía,H131,ffffff,3
+3,0000ff,10322,Chuniza  ||  Portal Usme,3-3,ffffff,3
+3,0000ff,10323,Portal Usme,3-3,ffffff,3
+3,0000ff,10324,Chuniza,3-3,ffffff,3
+3,0000ff,10329,La Esperanza Sur ||  Portal Usme,3-12,ffffff,3
+3,0000ff,10331,Bochica ||  Estación Molinos,4-1,ffffff,3
+3,0000ff,10332,Portal Usme,3-12,ffffff,3
+3,0000ff,10335,La Esperanza Sur,3-12,ffffff,3
+3,0000ff,10340,Belén ||  Portal El Dorado,16-12,ffffff,3
+3,0000ff,10341,Portal El Dorado,16-12,ffffff,3
+3,0000ff,10342,Belén,16-12,ffffff,3
+3,0000ff,10347,El Uval ||  Portal Usme,3-14,ffffff,3
+3,0000ff,10348,Marichuela ||  Portal Usme,3-9,ffffff,3
+3,0000ff,10358,El Uval,3-14,ffffff,3
+3,0000ff,10366,Virrey,3-8,ffffff,3
+3,0000ff,10374,Fontibón Brisas,K331,ffffff,3
+3,0000ff,10376,Centro Comercial Tunal,H317,ffffff,3
+3,0000ff,10377,Aeropuerto,K317,ffffff,3
+3,0000ff,10378,Uribe Uribe AM ||  Estación Calle 40 Sur AM,7-1,ffffff,3
+3,0000ff,10381,Usminia ||  Portal Usme,3-5,ffffff,3
+3,0000ff,10382,El Uval,H318,ffffff,3
+3,0000ff,10383,Fontibón Brisas,K318,ffffff,3
+3,0000ff,10384,Fontibón Brisas,K325,ffffff,3
+3,0000ff,10385,Portal Usme,3-5,ffffff,3
+3,0000ff,10386,Moralba,L312,ffffff,3
+3,0000ff,10387,Fontibon Brisas,K312,ffffff,3
+3,0000ff,10388,Usminia,3-5,ffffff,3
+3,0000ff,10389,Est. Av. 1 de Mayo,L328,ffffff,3
+3,0000ff,10394,Fontibón Brisas,K314,ffffff,3
+3,0000ff,10398,Colina ||  Est. Alcalá,19-2,ffffff,3
+3,0000ff,10400,Cantalejo ||  Est Toberín,19-12,ffffff,3
+3,0000ff,10405,Calle 129 ||  Est. Prado,19-10,ffffff,3
+3,0000ff,10407,Calle 167 ||  Est. Toberin,T52,ffffff,3
+3,0000ff,10416,Portal Norte ||  Portal Suba,T55,ffffff,3
+3,0000ff,10422,Canodromo ||  Estación Prado,19-11,ffffff,3
+3,0000ff,10429,Portal Suba ||  Tuna Alta,T08,ffffff,3
+3,0000ff,10440,Suba Corpas,C157,ffffff,3
+3,0000ff,10442,Bellaflor ||  Paraíso,10-11,ffffff,3
+3,0000ff,10449,C146 Est. 21 Ángeles || C146 Casablanca Norte,CC146,ffffff,3
+3,0000ff,10454,C160 Est. La Campiña || C160 Orquídeas,CC160,ffffff,3
+3,0000ff,10457,San Martín de Loba,661,ffffff,3
+3,0000ff,10463,Juan Pablo II ||  Arabia,H638,ffffff,3
+3,0000ff,10466,D800 Villa Gladys || L800 Gaviotas,LD800,ffffff,3
+3,0000ff,10468,A103 Est. Calle 76 || C103 Portales del Norte,CA103,ffffff,3
+3,0000ff,10470,Corpas,C509,ffffff,3
+3,0000ff,10479,A507 Chapinero || G507 Metrovivienda,GA507,ffffff,3
+3,0000ff,10490,Portales del Norte ||  Est. Alcalá,T53,ffffff,3
+3,0000ff,10491,Portales del Norte ||  Est. Alcalá Ciclovía,T53,ffffff,3
+3,0000ff,10499,A117 Chapinero || C117 Villa Cindy,CA117,ffffff,3
+3,0000ff,10505,B608 Chicó Navarra || H608 Arabia,HB608,ffffff,3
+3,0000ff,10506,B608 Chicó Navarra || H608 Arabia Ciclovía,HB608,ffffff,3
+3,0000ff,10510,Mochuelo Bajo ||  Paraiso,10-12,ffffff,3
+3,0000ff,10525,B100 Est. Alcala || C100 Casablanca Norte,CB100,ffffff,3
+3,0000ff,10529,Horacio Orjuela ||  Estación Av. 1 de Mayo,15-3,ffffff,3
+3,0000ff,10533,D204 Portal Calle 80 || D204 Gran Granada,DD204,ffffff,3
+3,0000ff,10534,Estación Av. 1 de Mayo ||  Estación Bicentenario,L813,ffffff,3
+3,0000ff,10535,B631 Avenida Calle 134 Carrera 9 || H631 Paraíso,HB631,ffffff,3
+3,0000ff,10537,Calle 222,T11,ffffff,3
+3,0000ff,10538,Alpes,T11,ffffff,3
+3,0000ff,10539,Alpes Ciclovía,T11,ffffff,3
+3,0000ff,10540,G816 Villa Del Rio || L816 Doña Liliana,LG816,ffffff,3
+3,0000ff,10541,Porciúncula ||  Metrovivienda,166,ffffff,3
+3,0000ff,10550,Metrovivienda,T62,ffffff,3
+3,0000ff,10551,CasaBlanca,T62,ffffff,3
+3,0000ff,10552,CasaBlanca Ciclovía,T62,ffffff,3
+3,0000ff,10555,Sidel ||  Portal 20 de julio,L819,ffffff,3
+3,0000ff,10558,Calle 170,C401,ffffff,3
+3,0000ff,10564,Lomas ||  Unir,271,ffffff,3
+3,0000ff,10571,Portal Usme ||  Puerta al Llano,TC30,ffffff,3
+3,0000ff,10575,Mundo Aventura ||  Est. Av. Americas  Av. Boyacá,8-10,ffffff,3
+3,0000ff,10577,A809 Marly || L809 Santa Rita Sur Oriental,LA809,ffffff,3
+3,0000ff,10578,A809 Marly || L809 Santa Rita Sur Oriental Ciclovía,LA809,ffffff,3
+3,0000ff,10580,Bilbao,C156,ffffff,3
+3,0000ff,10581,El Recreo,G156,ffffff,3
+3,0000ff,10583,Porciúncula ||  Casablanca Norte,E61,ffffff,3
+3,0000ff,10584,Porciúncula ||  Calle 100 Ciclovía,E61,ffffff,3
+3,0000ff,10593,L822 Sidel || L822 Estacion  Av. 1 de Mayo,LL822,ffffff,3
+3,0000ff,10594,Zona Franca ||  Arabia,P39,ffffff,3
+3,0000ff,10595,L822 Sidel || L822 Estacion  Av. 1 de Mayo,LL822,ffffff,3
+3,0000ff,10599,Museo Nacional ||  Gaviotas,T43A,ffffff,3
+3,0000ff,10600,Museo Nacional ||  Gaviotas Ciclovía,T43A,ffffff,3
+3,0000ff,10609,K211 Salitre Greco || D211 Gran Granada,DK211,ffffff,3
+3,0000ff,10610,F407 Banderas || F407 La Magdalena,FF407,ffffff,3
+3,0000ff,10611,L716 Est. Av. 1 de Mayo  || H716 Molinos II,HL716,ffffff,3
+3,0000ff,10615,Porvenir,P7,ffffff,3
+3,0000ff,10619,A214 Parkway || D214 Bachue,DA214,ffffff,3
+3,0000ff,10620,A214 Parkway || D214 Bachue Ciclovía,DA214,ffffff,3
+3,0000ff,10624,Altamira ||  Portal 20 de Julio,13-8,ffffff,3
+3,0000ff,10625,Pinares,P7,ffffff,3
+3,0000ff,10629,Fontibon Brisas,K810,ffffff,3
+3,0000ff,10630,Gaviotas,L810,ffffff,3
+3,0000ff,10631,L807 San Blas || G807 Bosa Carbonell,LG807,ffffff,3
+3,0000ff,10632,Porciuncula ||  Fontibon San Pablo,12,ffffff,3
+3,0000ff,10633,K206 Gobernación || D206 Bachué,DK206,ffffff,3
+3,0000ff,10650,Montebello ||  Est. Av. 1 de Mayo,T27,ffffff,3
+3,0000ff,10651,Montebello ||  Est. Av. 1 de Mayo Festivo,T27,ffffff,3
+3,0000ff,10653,Ramajal ||  Est. Av. 1 de Mayo,15-4,ffffff,3
+3,0000ff,10657,G525 Bosa Estación || G525 Porvenir,GG525,ffffff,3
+3,0000ff,10659,K542 Est. Modelia || G542 Metrovivienda,GK542,ffffff,3
+3,0000ff,10660,A215 Germania || D215 Bachue,DA215,ffffff,3
+3,0000ff,10664,F511 Portal Américas || G511 Porvenir,GF511,ffffff,3
+3,0000ff,10666,Marly ||  Bachué,193B,ffffff,3
+3,0000ff,10667,F512 Portal Américas || G512 Parques de Bogotá,GF512,ffffff,3
+3,0000ff,10671,A600 Chapinero || H600 Jerusalén,HA600,ffffff,3
+3,0000ff,10673,A215 Germania || D215 Bachue Ciclovía,DA215,ffffff,3
+3,0000ff,10674,Villa Amalia ||  Portal Eldorado,16-5,ffffff,3
+3,0000ff,10676,Diana Turbay,H408,ffffff,3
+3,0000ff,10684,Florida ||  Est. Granja KR 77,5-4,ffffff,3
+3,0000ff,10687,Marly ||  Bachue Ciclovía,193B,ffffff,3
+3,0000ff,10689,F603 Corabastos || H603 Santo Domingo,HF603,ffffff,3
+3,0000ff,10690,Chapinero ||  Bachue,59B,ffffff,3
+3,0000ff,10697,Cantón Norte ||  Suba Corpas,T21,ffffff,3
+3,0000ff,10698,Cantón Norte ||  Suba Corpas Ciclovía,T21,ffffff,3
+3,0000ff,10699,Providencia Alta ||  Estación Av. 1 Mayo,13-2,ffffff,3
+3,0000ff,10700,F417 Est. Bibl. Tintal  || F417 Tierra Buena,FF417,ffffff,3
+3,0000ff,10704,Diana Turbay ||  Estación Av. 1 Mayo,13-4,ffffff,3
+3,0000ff,10705,Germania ||  Las Acacias,143,ffffff,3
+3,0000ff,10708,K527 CAN || G527 Metrovivienda,GK527,ffffff,3
+3,0000ff,10713,Favidi ||  Estación Banderas,F423,ffffff,3
+3,0000ff,10714,Favidi ||  Estación Banderas,F424,ffffff,3
+3,0000ff,10715,Palermo Sur ||  Estación Av. 1 Mayo,13-5,ffffff,3
+3,0000ff,10717,A426 Estación Comuneros || F426 Galán,FA426,ffffff,3
+3,0000ff,10719,Est. Calle 100 ||  Corpas,T795,ffffff,3
+3,0000ff,10725,AK 7 AC 170 ||  Portal Norte,TC10,ffffff,3
+3,0000ff,10726,H604 Est. General Santander || H604 Santo Domingo,HH604,ffffff,3
+3,0000ff,10742,AK 7 AC 134 ||  Est. Alcalá,19-1,ffffff,3
+3,0000ff,10744,Chicó Norte ||  Estación CL 100,19-3,ffffff,3
+3,0000ff,10745,A203 Chicó Norte || D203 Bachué,DA203,ffffff,3
+3,0000ff,10748,La Cabrera ||  Estación CL 85,19-8,ffffff,3
+3,0000ff,10750,Barancas Norte ||  AK 7 AC 153,19-9,ffffff,3
+3,0000ff,10751,Santo Domingo ||  Portal Sur,H640,ffffff,3
+3,0000ff,10754,Calle 153 ||  Bosa San José,634,ffffff,3
+3,0000ff,10755,Cedritos ||  Estación CL 142,19-6,ffffff,3
+3,0000ff,10761,Santo Domingo ||  Portal Sur,H641,ffffff,3
+3,0000ff,10765,San Blas ||  Bosa San Jose,P24,ffffff,3
+3,0000ff,10768,Germania ||  Las Acacias Ciclovía,143,ffffff,3
+3,0000ff,10769,Estación Pepe Sierra ||  Santa Ana,B908,ffffff,3
+3,0000ff,10777,K904 Terminal Salitre || B904 La Estrellita,BK904,ffffff,3
+3,0000ff,10780,A900 Galerías || B900 La Estrellita,BA900,ffffff,3
+3,0000ff,10782,Villemar,16-10,ffffff,3
+3,0000ff,10791,K905 Puente Aéreo || B905 Serrezuela,BK905,ffffff,3
+3,0000ff,10792,C917 Santa Cecilla || B917 Terminal Norte,BC917,ffffff,3
+3,0000ff,10799,Chicó ||  Villa Gloria,E17,ffffff,3
+3,0000ff,10803,B130 Cardio Infantil || C130 Suba Berlín,CB130,ffffff,3
+3,0000ff,10809,Chicó ||  Villa Gloria,E43,ffffff,3
+3,0000ff,10815,B161 Unicentro || C161 Villa Gloria,CB161,ffffff,3
+3,0000ff,10823,Suba Rincón ||  Est. Granja KR 77,5-1,ffffff,3
+3,0000ff,10824,Cantón Norte ||  Corpas,E26B,ffffff,3
+3,0000ff,10825,L205 Lomas || D205 Bachué,DL205,ffffff,3
+3,0000ff,10826,L205 Lomas || D205 Bachué Ciclovía,DL205,ffffff,3
+3,0000ff,10831,Est. Av. 1 de Mayo,N16,ffffff,3
+3,0000ff,10832,L811 Aguas Claras || H811 Restrepo,LH811,ffffff,3
+3,0000ff,10833,L811 Aguas Claras || H811 Restrepo Ciclovía,LH811,ffffff,3
+3,0000ff,10834,B161 Unicentro || C161 Villa Gloria Ciclovía,CB161,ffffff,3
+3,0000ff,10836,C110 Portal Suba || C110 Chorrillos,CC110,ffffff,3
+3,0000ff,10837,Av. Carrera 91 ||  Est. Granja KR 77,5-2,ffffff,3
+3,0000ff,10838,Suba Compartir ||  Portal Suba,C104,ffffff,3
+3,0000ff,10839,Serena Cerezos ||  Est. Granja KR 77,5-3,ffffff,3
+3,0000ff,10840,Fontibón Refugio,K916,ffffff,3
+3,0000ff,10841,Balmoral Norte,B916,ffffff,3
+3,0000ff,10843,Santo Domingo ||  Bachue,621,ffffff,3
+3,0000ff,10844,La Gaitana ||  Portal Suba,11-8,ffffff,3
+3,0000ff,10845,San Andres ||  Portal Suba,11-2,ffffff,3
+3,0000ff,10847,Santo Domingo ||  Bachue Ciclovía,621,ffffff,3
+3,0000ff,10848,Terminal Norte ||  Villa Gladys,P49,ffffff,3
+3,0000ff,10849,C925 Niza Calle 127 || B925 Est. Mazurén,BC925,ffffff,3
+3,0000ff,10850,Lisboa ||  Portal Suba,11-9,ffffff,3
+3,0000ff,10851,Villa María ||  Portal Suba,11-3,ffffff,3
+3,0000ff,10854,Pinar ||  Portal Suba,11-7,ffffff,3
+3,0000ff,10856,Pinar,11-7,ffffff,3
+3,0000ff,10861,C159 Suba Pueblo || C159 Villa Cindy,CC159,ffffff,3
+3,0000ff,10863,Av. Cali ||  Portal Suba,11-5,ffffff,3
+3,0000ff,10865,Las Mercedes ||  Portal Suba,11-6,ffffff,3
+3,0000ff,10866,Portal Suba,11-6,ffffff,3
+3,0000ff,10867,Las Mercedes,11-6,ffffff,3
+3,0000ff,10871,Villa Cindy ||  Hsp. San Blas,T13,ffffff,3
+3,0000ff,10872,Marly ||  El Recreo,579,ffffff,3
+3,0000ff,10873,Marly ||  El Recreo Ciclovía,579,ffffff,3
+3,0000ff,10874,A814 Porciúncula || L814 Horacio Orjuela,LA814,ffffff,3
+3,0000ff,10877,Villa Cindy ||  Hsp. San Blas Ciclovía,T13,ffffff,3
+3,0000ff,10883,Aures II ||  Portal Suba,11-4,ffffff,3
+3,0000ff,10884,Suba Gaitana ||  Bosa San Diego,599,ffffff,3
+3,0000ff,10892,A814 Porciúncula || L814 Horacio Orjuela Ciclovía,LA814,ffffff,3
+3,0000ff,10894,A814 Porciúncula || L814 Horacio Orjuela Festivo,LA814,ffffff,3
+3,0000ff,10916,El Uval,E44,ffffff,3
+3,0000ff,10920,El Uval Ciclovía,E44,ffffff,3
+3,0000ff,11024,Bilbao ||  Portal Suba,11-10,ffffff,3
+3,0000ff,11026,Bilbao ||  Patio Suba,11-10,ffffff,3
+3,0000ff,11050,F425 Timiza || F425 Est. Banderas,FF425,ffffff,3
+3,0000ff,11060,G414 Hsp. Kennedy || F414 Villa Alexandra,FG414,ffffff,3
+3,0000ff,11067,A522 Germania || G522 Metrovivienda,GA522,ffffff,3
+3,0000ff,11068,G536 Est. Sena  || G536 Est. Santa Isabel,GG536,ffffff,3
+3,0000ff,11072,G524 Parques de Bogota || G524 Portal Sur,GG524,ffffff,3
+3,0000ff,11073,Portal Sur,G524,ffffff,3
+3,0000ff,11074,Parques de Bogota,G524,ffffff,3
+3,0000ff,11076,K102 Salitre El Greco || C102 Suba Fontanar,CK102,ffffff,3
+3,0000ff,11079,Fiscala Alta,H530,ffffff,3
+3,0000ff,11080,Metrovivienda,G530,ffffff,3
+3,0000ff,11081,Chicó ||  Aeropuerto,P500,ffffff,3
+3,0000ff,11091,Potosí ||  Portal Tunal,H625,ffffff,3
+3,0000ff,11093,Tunal ||  Est. Calle 40 Sur,7-2,ffffff,3
+3,0000ff,11101,Sierra Morena ||  Portal Tunal,6-3,ffffff,3
+3,0000ff,11102,El Uval,330,ffffff,3
+3,0000ff,11122,Canadá Güira,L517,ffffff,3
+3,0000ff,11126,La Roca ||  Parques de Bogotá,C701,ffffff,3
+3,0000ff,11133,Perdomo ||  Portal Sur,10-6,ffffff,3
+3,0000ff,11135,Fatima ||  General Santander,12-1,ffffff,3
+3,0000ff,11136,Fatima,12-1,ffffff,3
+3,0000ff,11150,Lijaca,B419,ffffff,3
+3,0000ff,11151,F419 Calandaima,FB419,ffffff,3
+3,0000ff,11152,B419 Lijaca Ciclovía,FB419,ffffff,3
+3,0000ff,11153,Calandaima Ciclovía,F419,ffffff,3
+3,0000ff,11178,Galerías ||  Rincón de Venecia,97,ffffff,3
+3,0000ff,11181,Centro ||  Zona Industrial Alamos,359,ffffff,3
+3,0000ff,11192,Mochuelo Bajo ||  San Carlos,6-18,ffffff,3
+3,0000ff,11193,Santa Barbara ||  San Carlos,6-18,ffffff,3
+3,0000ff,11204,El Tuno,H308,ffffff,3
+3,0000ff,11205,Puente Grande,K308,ffffff,3
+3,0000ff,11207,El Tuno,H308,ffffff,3
+3,0000ff,11208,Bosa San Jose,G311,ffffff,3
+3,0000ff,11209,Puente Grande,K311,ffffff,3
+3,0000ff,11248,Ciudad Alsacia,F333,ffffff,3
+3,0000ff,11386,A003 Marly || A003 Est. Universidad Nacional,AA003,ffffff,3
+3,0000ff,11388,Uribe Uribe PM ||   Estación Calle 40 Sur PM,7-1,ffffff,3
+3,0000ff,11419,A124 Germania || C124 Bilbao Ciclovía,CA124,ffffff,3
+3,0000ff,11421,Bilbao Ciclovía,C131,ffffff,3
+3,0000ff,11470,Estacion Calle 127  ||  Estacion Calle 127,B920,ffffff,3
+3,0000ff,11471,Torca  ||  Tibabita,18-14,ffffff,3
+3,0000ff,11485,Terminal Norte,291,ffffff,3
+3,0000ff,11502,La Riviera,F718,ffffff,3
+3,0000ff,11503,Usme Centro,H718,ffffff,3
+3,0000ff,11514,A821 Est. Universidades || L821 Est. Bicentenario,LA821,ffffff,3
+3,0000ff,11517,El Verjon ||  Est. Bicentenario,14-6,ffffff,3
+3,0000ff,11538,L636 San Blas II || H636 Rincón de Venecia,HL636,ffffff,3
+3,0000ff,11540,A805 7 De Agosto || L805 Juan Rey Ciclovía,LA805,ffffff,3
+3,0000ff,11542,A805 7 De Agosto || L805 Juan Rey,LA805,ffffff,3
+3,0000ff,11547,Villa Cindy ||  Hsp. San Blas Ciclovía,T13,ffffff,3
+3,0000ff,11548,Villa Cindy ||  Hsp. San Blas Ciclovía,T13,ffffff,3
+3,0000ff,11563,H728 Danubio || H728 Estación Molinos,HH728,ffffff,3
+3,0000ff,11573,Virrey ||  Portal Usme,3-8,ffffff,3
+3,0000ff,11668,La Felicidad,K301,ffffff,3
+3,0000ff,11672,Fontibón Centro ||  Portal Eldorado,16-9,ffffff,3
+3,0000ff,11673,Portal Eldorado,16-9,ffffff,3
+3,0000ff,11674,Fontibón Centro,16-9,ffffff,3
+3,0000ff,11675,B118 San Cristobal norte || C118 Suba Berlin,CB118,ffffff,3
+3,0000ff,11701,H729 La Aurora || H729 Portal Usme,HH729,ffffff,3
+3,0000ff,11705,A725 Las Nieves || H725 El Tuno,HA725,ffffff,3
+3,0000ff,11721,Portal Usme,3-14,ffffff,3
+3,0000ff,11728,Puente Aranda,F154,ffffff,3
+3,0000ff,11764,Puerta de Teja,K328,ffffff,3
+3,0000ff,11765,B326 Unicentro  || K326 Puerta de Teja,KB326,ffffff,3
+3,0000ff,11768,El Dorado Laches,L325,ffffff,3
+3,0000ff,11769,El Codito,B314,ffffff,3
+3,0000ff,11811,La Fiscala ||  Portal Usme,3-11,ffffff,3
+3,0000ff,11812,Nebraska ||  Portal Usme,3-13,ffffff,3
+3,0000ff,11824,A702 El Guavio || H702 El Uval,HA702,ffffff,3
+3,0000ff,11825,Terminal Salitre,K700,ffffff,3
+3,0000ff,11826,Bellavista,H700,ffffff,3
+3,0000ff,11827,San Diego,A706,ffffff,3
+3,0000ff,11828,El Uval,H706,ffffff,3
+3,0000ff,11829,A708 Chicó Norte || H708 Antonio J. de Sucre,HA708,ffffff,3
+3,0000ff,11830,K715 Corferias || H715 El Uval,HK715,ffffff,3
+3,0000ff,11832,L723 Portal 20 de Julio || H723 Usme Centro,HL723,ffffff,3
+3,0000ff,11836,Terminal Salitre,K721,ffffff,3
+3,0000ff,11837,El Tuno,H721,ffffff,3
+3,0000ff,11838,H726 Est. General Santander || H726 Bolonia,HH726,ffffff,3
+3,0000ff,11849,B145 San Cristóbal Norte || C145 Bilbao,CB145,ffffff,3
+3,0000ff,11884,G543 Timiza || H543 Est. General Santander,GH543,ffffff,3
+3,0000ff,11887,Est. General Santander,H543,ffffff,3
+3,0000ff,11888,G543 Timiza || H543 Est. General Santander Ciclovía,GH543,ffffff,3
+3,0000ff,11901,La Estancia ||  Portal Eldorado,16-7,ffffff,3
+3,0000ff,11902,Portal Eldorado,16-7,ffffff,3
+3,0000ff,11903,La Estancia,16-7,ffffff,3
+3,0000ff,11955,B995 Calle 134 || D995 Movistar Arena,BD995,ffffff,3
+3,0000ff,11956,B995 Calle 134 || D995 Movistar Arena,BD995,ffffff,3
+3,0000ff,11967,A720 7 de Agosto || H720 Ciudadela Usme Ciclovía,HA720,ffffff,3
+3,0000ff,11968,Ciudadela Usme,H720,ffffff,3
+3,0000ff,11969,Ciudadela Usme,H720,ffffff,3
+3,0000ff,11998,A720 7 de Agosto || H720 Ciudadela Usme,HA720,ffffff,3
+3,0000ff,11999,7 de Agosto,A720,ffffff,3
+3,0000ff,12000,7 de Agosto,A720,ffffff,3
+3,0000ff,12003,Metrovivienda,G147,ffffff,3
+3,0000ff,12004,Bilbao,C147,ffffff,3
+3,0000ff,12009,A601 Germania || H601 Perdomo Ciclovía,HA601,ffffff,3
+3,0000ff,12049,Tierra Buena,F733,ffffff,3
+3,0000ff,12050,Portal Usme,3-8,ffffff,3
+3,0000ff,12051,San Martín de Loba,L329,ffffff,3
+3,0000ff,12052,Fontibon Brisas,K329,ffffff,3
+3,0000ff,12061,A334 Porciuncula || K334 Fontibon Versalles,KA334,ffffff,3
+3,0000ff,12068,San Martín de Loba Ciclovía,L329,ffffff,3
+3,0000ff,12069,Fontibon Brisas Ciclovía,K329,ffffff,3
+3,0000ff,12071,A334 Porciuncula || K334 Fontibon Versalles Ciclovía,KA334,ffffff,3
+3,0000ff,12083,B609 Unicentro || H609 Arborizadora Alta,HB609,ffffff,3
+3,0000ff,12084,C913 Veramonte || B913 Est. Mazurén,CB913,ffffff,3
+3,0000ff,12085,A332 La Porciúncula || K332 El Recodo,KA332,ffffff,3
+3,0000ff,12086,A332 La Porciúncula || K332 El Recodo Ciclovía,KA332,ffffff,3
+3,0000ff,12087,B609 Unicentro || H609 Arborizadora Alta Ciclovía,HB609,ffffff,3
+3,0000ff,12088,La Porciúncula,A332,ffffff,3
+3,0000ff,12089,C612 Villa María  || H612 San Joaquín,HC612,ffffff,3
+3,0000ff,12091,B109 Canton Norte || C109 Tibabuyes,CB109,ffffff,3
+3,0000ff,12096,H735 Uval || H735 Portal Usme,HH735,ffffff,3
+3,0000ff,12098,H735 Portal Usme,HH735,ffffff,3
+3,0000ff,12100,A001 El Paraiso || A001 Bosque Calderón,AA001,ffffff,3
+3,0000ff,12115,Unicentro ||  Arabia,260,ffffff,3
+3,0000ff,12121,Ingles ||  Est. Calle 40 Sur,7-3,ffffff,3
+3,0000ff,12122,Bulevar Niza ||  Paraíso,742A,ffffff,3
+3,0000ff,12123,A643 Paloquemao  || H643 San Joaquín,HA643,ffffff,3
+3,0000ff,12124,Metrovivienda,G902,ffffff,3
+3,0000ff,12126,Metrovivienda,G902,ffffff,3
+3,0000ff,12130,A117 Chapinero || C117 Villa Cindy Ciclovía,CA117,ffffff,3
+3,0000ff,12131,Perdomo,T163,ffffff,3
+3,0000ff,12132,Calle 222,T163,ffffff,3
+3,0000ff,12133,Perdomo,T163,ffffff,3
+3,0000ff,12134,Calle 197,T163,ffffff,3
+3,0000ff,12135,Perdomo Ciclovía,T163,ffffff,3
+3,0000ff,12136,Perdomo Ciclovía,T163,ffffff,3
+3,0000ff,12137,Alfonso Lopez ||  Portal Usme,3-4,ffffff,3
+3,0000ff,12138,Portal Usme,3-4,ffffff,3
+3,0000ff,12139,A103 Est. Calle 76 || C103 Portales del Norte Ciclovía,CA103,ffffff,3
+3,0000ff,12140,Alfonso Lopez,3-4,ffffff,3
+3,0000ff,12143,Usme Centro,3-10,ffffff,3
+3,0000ff,12146,A151 Centro || C151 Tibabuyes,CA151,ffffff,3
+3,0000ff,12147,A151 Centro || C151 Tibabuyes Ciclovía,CA151,ffffff,3
+3,0000ff,12148,A151 Centro || C151 Tibabuyes Ciclovía,CA151,ffffff,3
+3,0000ff,12149,A151 Centro || C151 Tibabuyes Ciclovía,CA151,ffffff,3
+3,0000ff,12151,A129 Germania || C129 Bilbao,CA129,ffffff,3
+3,0000ff,12152,A129 Germania || C129 Bilbao Ciclovía,CA129,ffffff,3
+3,0000ff,12153,Suba Lisboa,C315,ffffff,3
+3,0000ff,12154,Suba Compartir,C323,ffffff,3
+3,0000ff,12155,El Recodo,K323,ffffff,3
+3,0000ff,12162,A124 Germania  || C124 Bilbao,CA124,ffffff,3
+3,0000ff,12163,A124 Germania || C124 Bilbao Ciclovía,CA124,ffffff,3
+3,0000ff,12164,A124 Germania || C124 Bilbao Ciclovía,CA124,ffffff,3
+3,0000ff,12166,Est. Av. 1 de Mayo,L149,ffffff,3
+3,0000ff,12170,Puente Grande,K315,ffffff,3
+3,0000ff,12171,Germania,A127,ffffff,3
+3,0000ff,12172,Fontanar del Rio,C127,ffffff,3
+3,0000ff,12173,B020 Avenida Calle 134 || A020 Estación La Castellana,AB020,ffffff,3
+3,0000ff,12175,Polo,A605,ffffff,3
+3,0000ff,12176,Arborizadora Alta,H605,ffffff,3
+3,0000ff,12179,Est. Mazurén,B913,ffffff,3
+3,0000ff,12180,Veramonte,C913,ffffff,3
+3,0000ff,12181,Molino ||  Metrovivienda,786,ffffff,3
+3,0000ff,12182,Juan Rey,139,ffffff,3
+3,0000ff,12183,Bosa San Jose,139,ffffff,3
+3,0000ff,12185,F019 AC3/AK68 || A019 AC3/Comuneros,AF019,ffffff,3
+3,0000ff,12187,El Recodo,K302,ffffff,3
+3,0000ff,12196,A537 Palermo || G537 Villa del Rio,GA537,ffffff,3
+3,0000ff,12198,A537 Palermo || G537 Villa del Rio Ciclovía,GA537,ffffff,3
+3,0000ff,12199,A538 El Retiro || G538 Bosa Centro,GA538,ffffff,3
+3,0000ff,12200,H521 Usme-Chinguaza || G521 San Bernardino,GH521,ffffff,3
+3,0000ff,12203,A538 El Retiro || G538 Bosa Centro Ciclovía,GA538,ffffff,3
+3,0000ff,12207,Potreritos,G517,ffffff,3
+3,0000ff,12214,A611 Est. Calle 100 || H611 Santo Domingo,HA611,ffffff,3
+3,0000ff,12215,Bicentenario ||  Bosa San José,580,ffffff,3
+3,0000ff,12227,A535 Germania || G535 Bosa San José,GA535,ffffff,3
+3,0000ff,12228,A501 Germania || G501 Bosa San José,GA501,ffffff,3
+3,0000ff,12233,Galerias ||  Rincón de Venecia Ciclovía,97,ffffff,3
+3,0000ff,12234,Unicentro ||  Catalina II,192,ffffff,3
+3,0000ff,12236,Unicentro ||  Catalina II Ciclovía,192,ffffff,3
+3,0000ff,12237,Marly ||  Catalina,T40,ffffff,3
+3,0000ff,12238,Marly ||  Catalina Ciclovía,T40,ffffff,3
+3,0000ff,12250,Diana Turbay ||  Estacion Molinos,4-2,ffffff,3
+3,0000ff,12263,H711 Portal Usme || H711 Los Soches,HH711,ffffff,3
+3,0000ff,12265,Puente Grande ||  Portal Eldorado,K300,ffffff,3
+3,0000ff,12266,Portal Eldorado,K300,ffffff,3
+3,0000ff,12267,Portal  Eldorado,K300,ffffff,3
+3,0000ff,12269,Zarazota,60,ffffff,3
+3,0000ff,12270,Bachue,60,ffffff,3
+3,0000ff,12274,Nueva Delhi,L331,ffffff,3
+3,0000ff,12275,Nueva Delhi Festivo,L331,ffffff,3
+3,0000ff,12305,A427 Centro Andino || F427 Calandaima,FA427,ffffff,3
+3,0000ff,12306,A427 Centro Andino || F427 Calandaima Ciclovía,FA427,ffffff,3
+3,0000ff,12312,A818 Galerias || L818 Aguas Claras,LA818,ffffff,3
+3,0000ff,12313,H817 Est. Nariño || L817 Gaviotas,LH817,ffffff,3
+3,0000ff,12314,Acacias,H327,ffffff,3
+3,0000ff,12315,Puente Grande,K327,ffffff,3
+3,0000ff,12316,Acacias Ciclovía,H327,ffffff,3
+3,0000ff,12327,Bolonia Usme,614,ffffff,3
+3,0000ff,12328,Zona Industrial Montevideo,614,ffffff,3
+3,0000ff,12331,B909 Mazuren || D909 Villas de Granada,BD909,ffffff,3
+3,0000ff,12332,B909 Mazuren || D909 Villas de Granada Ciclovía,BD909,ffffff,3
+3,0000ff,12336,Suba Corpas,C137,ffffff,3
+3,0000ff,12339,El Uval Ciclovía,H704,ffffff,3
+3,0000ff,12346,A601 Chapinero || H601 Perdomo,HA601,ffffff,3
+3,0000ff,12347,Terminal Salitre ||  Terminal Norte,Z4B,ffffff,3
+3,0000ff,12348,Terminal Salitre ||  Terminal Norte Ciclovía,Z4B,ffffff,3
+3,0000ff,12365,A324 La Perseverancia || K324 Fontibon Brisas,KA324,ffffff,3
+3,0000ff,12366,C705 Est. Suba CL 100 || H705 El Uval,HC705,ffffff,3
+3,0000ff,12367,C705 Est. Suba CL 100 || H705 El Uval Ciclovía,HC705,ffffff,3
+3,0000ff,12368,Sidel,L819,ffffff,3
+3,0000ff,12369,Terminal Salitre Ciclovía,K700,ffffff,3
+3,0000ff,12370,San Luis ||  Porciuncula,T06,ffffff,3
+3,0000ff,12371,San Luis ||  Porciuncula Ciclovía,T06,ffffff,3
+3,0000ff,12372,San Luis ||  Porciuncula,T06,ffffff,3
+3,0000ff,12374,H216 Villa Mayor || D216 La Florida,DH216,ffffff,3
+3,0000ff,12375,H216 Villa Mayor || D216 La Florida Ciclovía,DH216,ffffff,3
+3,0000ff,12381,Chicó Calle 100 ||  San Joaquín,T12,ffffff,3
+3,0000ff,12384,Chicó Calle 100 ||  San Joaquín Ciclovía,T12,ffffff,3
+3,0000ff,12391,Unicentro,B303,ffffff,3
+3,0000ff,12392,Recodo Fontibon,K303,ffffff,3
+3,0000ff,12393,Unicentro Ciclovía,B303,ffffff,3
+3,0000ff,12394,Recodo Fontibon Ciclovía,K303,ffffff,3
+3,0000ff,12395,L304 San Cristóbal Sur || K304 Fontibón Recodo,KL304,ffffff,3
+3,0000ff,12396,L304 San Cristóbal Sur || K304 Fontibón Recodo Ciclovía,KL304,ffffff,3
+3,0000ff,12400,B309 Lijacà || K309 San Pablo,KB309,ffffff,3
+3,0000ff,12401,B309 Lijacà || K309 San Pablo Ciclovía,KB309,ffffff,3
+3,0000ff,12402,Tierra Buena,F404,ffffff,3
+3,0000ff,12403,Calle 170,C404,ffffff,3
+3,0000ff,12404,Tierra Buena Ciclovía,F404,ffffff,3
+3,0000ff,12405,Portal Usme,3-10,ffffff,3
+3,0000ff,12406,Ciudadela Usme Ciclovía,H724,ffffff,3
+3,0000ff,12418,Metrovivienda,G137,ffffff,3
+3,0000ff,12429,K635 Montevideo || H635 Arborizadora Alta,HK635,ffffff,3
+3,0000ff,12436,F333 Ciudad  Alsacia || K333 Est. Av. Rojas,KF333,ffffff,3
+3,0000ff,12437,Est. Av. Rojas,K333,ffffff,3
+3,0000ff,12442,A618 Germania || H618 Santo Domingo,HA618,ffffff,3
+3,0000ff,12443,K629 Fontibón Centro || H629 Arborizadora Alta,HK629,ffffff,3
+3,0000ff,12448,A306 Centro Andino || K306 Zona Franca,KA306,ffffff,3
+3,0000ff,12449,A306 Centro Andino || K306 Zona Franca Ciclovía,KA306,ffffff,3
+3,0000ff,12450,Centro Andino,A306,ffffff,3
+3,0000ff,12451,Zona Franca,K306,ffffff,3
+3,0000ff,12460,Bilbao,C149,ffffff,3
+3,0000ff,12461,Germania,A704,ffffff,3
+3,0000ff,12464,Molinos ||  Estación Molinos,4-3,ffffff,3
+3,0000ff,12475,Est. Av. Chile ||  Fontibon San Pablo,12,ffffff,3
+3,0000ff,12476,Calle 53 ||  Zona Industrial Alamos,359,ffffff,3
+3,0000ff,12477,Calle 53 ||  Zona Industrial Alamos Ciclovía,359,ffffff,3
+3,0000ff,12479,A814 Porciuncula || L814 Horacio Orjuela Ciclovía,LA814,ffffff,3
+3,0000ff,12481,A002 San Luis || A002 El Campin,AA002,ffffff,3
+3,0000ff,12482,A002 San Luis || A002 El Campin Ciclovía,AA002,ffffff,3
+3,0000ff,12483,A002 San Luis || A002 El Campin,AA002,ffffff,3
+3,0000ff,12484,Lomitas ||  Est. Calle 187,B927,ffffff,3
+3,0000ff,12485,Gaviotas,L155,ffffff,3
+3,0000ff,12494,20 de Julio ||  Verbenal Sur,624,ffffff,3
+3,0000ff,12496,Unicentro ||  Metrovivienda,191,ffffff,3
+3,0000ff,12497,Toberin ||  Metrovivienda,Z8,ffffff,3
+3,0000ff,12498,Palermo Sur,T26,ffffff,3
+3,0000ff,12499,Country Club,T26,ffffff,3
+3,0000ff,12500,Palermo Sur  ||  Molinos,T26,ffffff,3
+3,0000ff,12501,Palermo Sur Ciclovía,T26,ffffff,3
+3,0000ff,12502,Country Club Ciclovía,T26,ffffff,3
+3,0000ff,12503,A856 NQS/Comuneros  || L856 Tihuaque/Violetas,LA856,ffffff,3
+3,0000ff,12504,A856 NQS/Comuneros  || L856 Tihuaque/Violetas Ciclovía,LA856,ffffff,3
+3,0000ff,12505,Est. Comuneros,A018,ffffff,3
+3,0000ff,12506,H803 Sena NQS || L803 Gaviotas,LH803,ffffff,3
+3,0000ff,12507,H803 Sena NQS  || L803 Doña Liliana Festivo,LH803,ffffff,3
+3,0000ff,12508,H632 Villa Gloria || H632 General Santander Ciclovía,HH632,ffffff,3
+3,0000ff,12511,K715 Corferias || H715 El Uval Ciclovía,HK715,ffffff,3
+3,0000ff,12512,Gaviotas,L919,ffffff,3
+3,0000ff,12513,Terminal Norte,B919,ffffff,3
+3,0000ff,12514,Terminal Norte Ciclovía,B919,ffffff,3
+3,0000ff,12515,Terminal Norte,B919,ffffff,3
+3,0000ff,12516,Terminal Norte,T25,ffffff,3
+3,0000ff,12517,Potosi,T25,ffffff,3
+3,0000ff,12518,Terminal Norte Ciclovía,T25,ffffff,3
+3,0000ff,12519,Potosi Ciclovía,T25,ffffff,3
+3,0000ff,12521,Potosi,T25,ffffff,3
+3,0000ff,12522,20 de Julio ||  Verbenal Sur Ciclovía,624,ffffff,3
+3,0000ff,12526,Tibabuyes,C134,ffffff,3
+3,0000ff,12528,Tibabuyes Ciclovía,C134,ffffff,3
+3,0000ff,12529,Porciúncula ||  Calle 100,E61,ffffff,3
+3,0000ff,12531,Mundo Aventura ||  Est. Av. Americas  Av. Boyacá,8-10,ffffff,3
+3,0000ff,12539,Germania ||  La Magdalena,688,ffffff,3
+3,0000ff,12540,Germania ||  La Magdalena Ciclovía,688,ffffff,3
+3,0000ff,12541,L422 Laches El Dorado || F422 Patio Bonito,FL422,ffffff,3
+3,0000ff,12542,A336 Germania || K336 Puente Grande-HB,KA336,ffffff,3
+3,0000ff,12543,Camelia ||  Gran Granada,669,ffffff,3
+3,0000ff,12544,Puente Aranda ||  Nueva Castilla,T48,ffffff,3
+3,0000ff,12550,H545 El Ensueño || G545 C.C. Villa del Río,GH545,ffffff,3
+3,0000ff,12555,A516 Chapinero || G516 Portal Sur,GA516,ffffff,3
+3,0000ff,12556,L519 Los Laches || G519 Olarte,GL519,ffffff,3
+3,0000ff,12557,L815 Est. Av. 1 Mayo || L815 Villa del Cerro,LL815,ffffff,3
+3,0000ff,12570,A567 Porciuncula || G567 Parques de Bogotá,GA567,ffffff,3
+3,0000ff,12571,Tibabuyes,C134,ffffff,3
+3,0000ff,12572,Tibabuyes,C134,ffffff,3
+3,0000ff,12578,G514 Bosa San José || G514 Portal Sur,GG514,ffffff,3
+3,0000ff,12580,Porciúncula ||  Bosa San jose,91,ffffff,3
+3,0000ff,12581,Germania ||  Bosa San José,99,ffffff,3
+3,0000ff,12582,Porciuncula ||  Bosa San Jose Ciclovía,91,ffffff,3
+3,0000ff,12583,Palermo ||  San José 1,731,ffffff,3
+3,0000ff,12584,Germania ||  Bosa San Diego,544A,ffffff,3
+3,0000ff,12586,Germanía ||  Bosa San Diego Ciclovía,544A,ffffff,3
+3,0000ff,12588,Porciuncula ||  Isla del Sol,56A,ffffff,3
+3,0000ff,12589,Porciuncula ||  Isla del Sol Ciclovía,56A,ffffff,3
+3,0000ff,12593,Germania ||  Roma,C1,ffffff,3
+3,0000ff,12594,Germania ||  Roma Ciclovía,C1,ffffff,3
+3,0000ff,12595,K505 Corferias || G505 Bosa San Diego,GK505,ffffff,3
+3,0000ff,12598,A600 San Diego || H600 Jerusalen,HA600,ffffff,3
+3,0000ff,12600,A610 Chicó Norte || H610 Paraíso,HA610,ffffff,3
+3,0000ff,12601,A633 Paloquemao || H633 Acapulco,HA633,ffffff,3
+3,0000ff,12602,D607 Morato || H607 Arborizadora Alta,HD607,ffffff,3
+3,0000ff,12603,F615 Estación Biblioteca Tintal || H615 Arborizadora Alta,HF615,ffffff,3
+3,0000ff,12604,K627 Salitre || H627 Alpes,HK627,ffffff,3
+3,0000ff,12623,Est. Venecia ||  Boitá,G528,ffffff,3
+3,0000ff,12633,H737 Portal Usme || H737 Bolonia,HH737,ffffff,3
+3,0000ff,12653,Portal Suba,T55,ffffff,3
+3,0000ff,12654,H719 Vereda el Hato || H719 Usme Centro,HH719,ffffff,3
+3,0000ff,12657,A405 San Diego || F405 Camelia,FA405,ffffff,3
+3,0000ff,12660,Pq. Central Bavaria,A134,ffffff,3
+3,0000ff,12661,Pq. Central Bavaria Ciclovía,A134,ffffff,3
+3,0000ff,12662,A164 Porciuncula || C164 Suba Tibabuyes,CA164,ffffff,3
+3,0000ff,12663,B165 Unicentro || C165 Suba Rincon,CB165,ffffff,3
+3,0000ff,12664,B165 Unicentro || C165 Suba Rincon,CB165,ffffff,3
+3,0000ff,12665,Unicentro,B165,ffffff,3
+3,0000ff,12666,Unicentro,B165,ffffff,3
+3,0000ff,12667,B165 Unicentro || C165 Suba Rincon,CB165,ffffff,3
+3,0000ff,12668,B165 Unicentro || C165 Suba Rincon,CB165,ffffff,3
+3,0000ff,12671,Diana Turbay,H529,ffffff,3
+3,0000ff,12672,Porvenir,G529,ffffff,3
+3,0000ff,12673,Tierra Buena,291,ffffff,3
+3,0000ff,12674,F918 Patio Bonito || B918 Terminal Norte,BF918,ffffff,3
+3,0000ff,12680,G546 La Marlene || F546 Portal Américas,GF546,ffffff,3
+3,0000ff,12681,Portal Américas,F546,ffffff,3
+3,0000ff,12682,La Marlene,G546,ffffff,3
+3,0000ff,12683,H645 Portal Sur || H645 Arborizadora Alta,HH645,ffffff,3
+3,0000ff,12684,A410 Chicó Norte || F410 Tierra Buena,FA410,ffffff,3
+3,0000ff,12685,A410 Chicó Norte || F410 Tierra Buena Ciclovía,FA410,ffffff,3
+3,0000ff,12687,Chicó ||  Metrovivienda,593,ffffff,3
+3,0000ff,12688,Chicó ||  Metrovivienda Ciclovía,593,ffffff,3
+3,0000ff,12689,Aeropuerto ||  Bosa San Jose,927,ffffff,3
+3,0000ff,12690,Metrovivienda,G509,ffffff,3
+3,0000ff,12691,El Recreo,G157,ffffff,3
+3,0000ff,12692,Tierra Buena,F401,ffffff,3
+3,0000ff,12694,A518 Estación Héroes || G518 San Bernardino Potreritos,GA518,ffffff,3
+3,0000ff,12696,Gaviotas ||  Metrovivienda,111,ffffff,3
+3,0000ff,12698,Tihuaque ||  Patio Bonito,T30B,ffffff,3
+3,0000ff,12713,Bosa Santa Fe,576,ffffff,3
+3,0000ff,12714,Cantabria ||  Estación Calle 146,19-7,ffffff,3
+3,0000ff,12715,Suba Corpas  ||  Bosa San Diego,94,ffffff,3
+3,0000ff,12716,A547 Centro || G547 Bosa San Diego,GA547,ffffff,3
+3,0000ff,12717,A532 Chapinero Central || G532 Metrovivienda,GA532,ffffff,3
+3,0000ff,12718,A532 Chapinero Central || G532 Metrovivienda Ciclovía,GA532,ffffff,3
+3,0000ff,12719,Engativá,576,ffffff,3
+3,0000ff,12721,L219 La Roca || D219 Engativá Centro,DL219,ffffff,3
+3,0000ff,12722,L219 La Roca || D219 Engativá Centro Ciclovía,DL219,ffffff,3
+3,0000ff,12725,H639 Villa Mayor || H639 Arborizadora Alta,HH639,ffffff,3
+3,0000ff,12727,Consuelo ||  Palmitas,7,ffffff,3
+3,0000ff,12728,Consuelo ||  Palmitas,7,ffffff,3
+3,0000ff,12729,Consuelo ||  Palmitas,7,ffffff,3
+3,0000ff,12730,A213 Galerías || D213 Villa Teresita,DA213,ffffff,3
+3,0000ff,12731,A213 Galerías || D213 Villa Teresita Ciclovía,DA213,ffffff,3
+3,0000ff,12732,Paraíso ||  Patio Bonito,C201,ffffff,3
+3,0000ff,12733,Paraíso ||  Patio Bonito,C201,ffffff,3
+3,0000ff,12734,Paraíso ||  Patio Bonito,C201,ffffff,3
+3,0000ff,12735,Patio Bonito,39,ffffff,3
+3,0000ff,12736,Tierra Buena,953,ffffff,3
+3,0000ff,12737,Tierra Buena,F408,ffffff,3
+3,0000ff,12738,Engativa Centro,SE14,ffffff,3
+3,0000ff,12739,Diana Turbay,SE14,ffffff,3
+3,0000ff,12740,D212 Quirigua ||  D212 Engativá Centro,DD212,ffffff,3
+3,0000ff,12741,Germania ||  Engativá,SE10,ffffff,3
+3,0000ff,12742,Germania ||  Engativá Ciclovía,SE10,ffffff,3
+3,0000ff,12743,F409 Est.Banderas || F409 Tierra Buena,FF409,ffffff,3
+3,0000ff,12744,D212 Portal Calle 80 || D212 Engativá Centro,DD212,ffffff,3
+3,0000ff,12745,F402 Est. Banderas || F402 Palmitas,FF402,ffffff,3
+3,0000ff,12746,A218 Centro || D218 Engativà Centro,DA218,ffffff,3
+3,0000ff,12747,L416 La Castaña || F416 Jazmin Occidental,FL416,ffffff,3
+3,0000ff,12748,L533 Doña Liliana || G533 Metrovivienda,GL533,ffffff,3
+3,0000ff,12749,Centro Internacional ||  Engativá,142,ffffff,3
+3,0000ff,12750,A218 Centro || D218 Engativà Centro Ciclovía,DA218,ffffff,3
+3,0000ff,12754,K903 Aeropuerto || B903 Verbenal,BK903,ffffff,3
+3,0000ff,12756,Engativa ||  Unicentro,C25,ffffff,3
+3,0000ff,12757,Engativa ||  Unicentro Ciclovía,C25,ffffff,3
+3,0000ff,12758,B237 Unicentro || D237 Engativà Centro,BD237,ffffff,3
+3,0000ff,12759,Chico Norte ||  Engativà,466,ffffff,3
+3,0000ff,12760,Chico Norte ||  Engativà Ciclovía,466,ffffff,3
+3,0000ff,12764,H811 Restrepo,LH811,ffffff,3
+3,0000ff,12765,13-5 Est. 1 de Mayo,13-2,ffffff,3
+3,0000ff,12766,Estación Av. 1 Mayo,13-4,ffffff,3
+3,0000ff,12767,Estación Av. 1 Mayo,13-5,ffffff,3
+3,0000ff,12774,Canada Güira ||  Engativà,740,ffffff,3
+3,0000ff,12776,Mirandela ||  Engativà,402,ffffff,3
+3,0000ff,12777,Providencia Alta,C101,ffffff,3
+3,0000ff,12778,Sabana del Dorado,C101,ffffff,3
+3,0000ff,12779,Sabana de Dorado,806,ffffff,3
+3,0000ff,12780,Providencia Alta,806,ffffff,3
+3,0000ff,12781,D122 Alkosto KR 68 || C122 Aures II,CD122,ffffff,3
+3,0000ff,12782,D122 Alkosto KR 68 || C122 Aures II Ciclovía,CD122,ffffff,3
+3,0000ff,12783,Lourdes ||  Engativá,E25,ffffff,3
+3,0000ff,12784,Lourdes ||  Engativá Ciclovía,E25,ffffff,3
+3,0000ff,12785,Engativá,539,ffffff,3
+3,0000ff,12786,El Uval,539,ffffff,3
+3,0000ff,12787,B906 Toberin || D906 Villa Gladys,BD906,ffffff,3
+3,0000ff,12788,Mirandela ||  Villa Gladys,442,ffffff,3
+3,0000ff,12789,Engativá,577,ffffff,3
+3,0000ff,12790,Diana Turbay,577,ffffff,3
+3,0000ff,12791,Metrovivienda,G208,ffffff,3
+3,0000ff,12792,Puente de Guadua,D208,ffffff,3
+3,0000ff,12793,B217 Unicentro || D217 Sabanas del Dorado,DB217,ffffff,3
+3,0000ff,12794,K502 Aeropuerto  || G502 Villa del Río,GK502,ffffff,3
+3,0000ff,12795,Nueva Roma ||  Portal Sur,TC14,ffffff,3
+3,0000ff,12797,La Estrellita,330,ffffff,3
+3,0000ff,12798,La Estrellita,330,ffffff,3
+3,0000ff,12800,H116 San Carlos || C116 Fontanar del Rio,CH116,ffffff,3
+3,0000ff,12801,Favidi ||  Estación Banderas,F423,ffffff,3
+3,0000ff,12803,Chapinero ||  Bosa San Diego,C15,ffffff,3
+3,0000ff,12804,A506 Galerías || G506 Catalina II,GA506,ffffff,3
+3,0000ff,12805,A506 Galerías || G506 Catalina II Ciclovía,GA506,ffffff,3
+3,0000ff,12828,A541 Chapinero || G541 Bosa Centro,GA541,ffffff,3
+3,0000ff,12829,A541 Chapinero || G541 Bosa Centro Ciclovía,GA541,ffffff,3
+3,0000ff,12834,L602 Los Laches || H602  Galicia,HL602,ffffff,3
+3,0000ff,12838,A520 Est. Las Nieves || G520 Bosa San Diego,GA520,ffffff,3
+3,0000ff,12844,Teusaquillo ||  Mochuelo Bajo,796A,ffffff,3
+3,0000ff,12845,A018 Est. Comuneros || G018 Centro Mayor,AG018,ffffff,3
+3,0000ff,12846,A520 Est. Las Nieves || G520 Bosa San Diego Ciclovía,GA520,ffffff,3
+3,0000ff,12852,H209 Galicia || D209 Villa Teresita,DH209,ffffff,3
+3,0000ff,12853,Diana Turbay,39,ffffff,3
+3,0000ff,12854,Fiscala Alta,953,ffffff,3
+3,0000ff,12856,L307 La Castaña || K307 El Recodo,KL307,ffffff,3
+3,0000ff,12861,B162 San Cristóbal Norte || C162 Villa Gloria,CB162,ffffff,3
+3,0000ff,12863,A680 Las Aguas AM || H680 Isla del Sol AM,HA680,ffffff,3
+3,0000ff,12864,A680 Las Aguas PM || H680 Isla del Sol PM,HA680,ffffff,3
+3,0000ff,12869,Libertadores ||  San Bernardino Potreritos,117,ffffff,3
+3,0000ff,12870,Pontevedra ||  San Bernardino,607A,ffffff,3
+3,0000ff,12882,Suba Gaitana,C155,ffffff,3
+3,0000ff,12883,Cerros de Oriente,H733,ffffff,3
+3,0000ff,12884,A620 San Diego || H620 La Estancia,HA620,ffffff,3
+3,0000ff,12887,A587 Teusaquillo || G587 Parques de Bogota,GA587,ffffff,3
+3,0000ff,12897,San Pablo Jericó ||  Portal ElDorado,TC6,ffffff,3
+3,0000ff,12898,Portal ElDorado,TC6,ffffff,3
+3,0000ff,12899,San Pablo Jericó,TC6,ffffff,3
+3,0000ff,12902,A642 Porciúncula || H642 Rincon de Venecia,HA642,ffffff,3
+3,0000ff,12903,A642 Porciuncula || H642 Rincón de Venecia Ciclovía,HA642,ffffff,3
+3,0000ff,12908,Centro,A302,ffffff,3
+3,0000ff,12909,Centro,A302,ffffff,3
+3,0000ff,12921,A319 Centro Andino || K319 Fontibon Brisas,KA319,ffffff,3
+3,0000ff,12922,A319 Centro Andino || K319 Fontibon Brisas Ciclovía,KA319,ffffff,3
+3,0000ff,12923,Suba Tibabuyes,C321,ffffff,3
+3,0000ff,12924,Fontibon Brisas,K321,ffffff,3
+3,0000ff,12925,Cerros de Oriente,H322,ffffff,3
+3,0000ff,12926,Fontibon Brisas,K322,ffffff,3
+3,0000ff,12927,Fontibon Brisas Ciclovía,K322,ffffff,3
+3,0000ff,12934,K812 Terminal Salitre || L812 Villa del cerro,LK812,ffffff,3
+3,0000ff,12935,K812 Terminal Salitre || L812 Villa del Cerro Ciclovía,LK812,ffffff,3
+3,0000ff,12937,Estación Bicentenario ||  Las Cruces,14-1,ffffff,3
+3,0000ff,12938,Moralba,L312,ffffff,3
+3,0000ff,12939,Fontibon Brisas,K312,ffffff,3
+3,0000ff,12940,La María ||  Bicentenario,15-5,ffffff,3
+3,0000ff,12941,La María ||  Bicentenario Ciclovía,15-5,ffffff,3
+3,0000ff,12942,El Recodo,K302,ffffff,3
+3,0000ff,12943,A324 La Perseverancia || K324 Fontibon Brisas,KA324,ffffff,3
+3,0000ff,12944,San Martín de Loba,L329,ffffff,3
+3,0000ff,12945,Fontibon Brisas,K329,ffffff,3
+3,0000ff,12948,Terminal Norte,E44,ffffff,3
+3,0000ff,12949,Terminal Norte,661,ffffff,3
+3,0000ff,12950,Usme Centro,H907,ffffff,3
+3,0000ff,12951,Terminal Norte,B907,ffffff,3
+3,0000ff,12952,Usme Centro Ciclovía,H907,ffffff,3
+3,0000ff,12953,Terminal Norte Ciclovía,B907,ffffff,3
+3,0000ff,12954,El Codito,B314,ffffff,3
+3,0000ff,12955,Fontibón Brisas,K314,ffffff,3
+3,0000ff,12956,El Uval,H318,ffffff,3
+3,0000ff,12957,Fontibón Brisas,K318,ffffff,3
+3,0000ff,12958,El Dorado Laches,L325,ffffff,3
+3,0000ff,12959,Fontibón Brisas,K325,ffffff,3
+3,0000ff,12960,Nueva Delhi,L331,ffffff,3
+3,0000ff,12962,Fontibón Brisas,K331,ffffff,3
+3,0000ff,12963,Calle 222,B902,ffffff,3
+3,0000ff,12964,B902 Calle 170 || G902 Metrovivienda,BG902,ffffff,3
+3,0000ff,12965,A606 Chico Norte || H606 San Joaquín,HA606,ffffff,3
+3,0000ff,12966,Calle 197,B902,ffffff,3
+3,0000ff,12969,Metrovivienda,G137,ffffff,3
+3,0000ff,12972,Bosa Santa Fe ||  Arabia,P44,ffffff,3
+3,0000ff,12973,K505 Corferias || G505 Bosa San Diego Ciclovía,GK505,ffffff,3
+3,0000ff,12977,Colina-Calle 153 ||  Bosa San José,E16A,ffffff,3
+3,0000ff,12979,H622 La Fiscala || H622 Rincon De Venecia,HH622,ffffff,3
+3,0000ff,12982,Chapinero ||  Bosa San Diego Ciclovía,C15,ffffff,3
+3,0000ff,12983,Paloquemao ||  Altos de Zuque,114A,ffffff,3
+3,0000ff,12995,A520 Est.Las Nieves || G520 Bosa San Diego,GA520,ffffff,3
+3,0000ff,13005,A680 Las Aguas AM || H680 Isla del Sol AM,HA680,ffffff,3
+3,0000ff,13006,A680 Las Aguas PM || H680 Isla del Sol PM,HA680,ffffff,3
+3,0000ff,13013,Consuelo ||  Palmitas,7,ffffff,3
+3,0000ff,13014,Consuelo ||  Palmitas,7,ffffff,3
+3,0000ff,13015,Consuelo ||  Palmitas,7,ffffff,3
+3,0000ff,13016,Paraíso ||  Patio Bonito,C201,ffffff,3
+3,0000ff,13019,Paraíso ||  Patio Bonito,C201,ffffff,3
+3,0000ff,13020,Paraíso ||  Patio Bonito,C201,ffffff,3
+3,0000ff,13022,A611 Est. Calle 100 || H611 Santo Domingo,HA611,ffffff,3
+3,0000ff,13023,F603 Corabastos || H603 Santo Domingo,HF603,ffffff,3
+3,0000ff,13025,Calle 153 ||  Bosa San José,634,ffffff,3
+4,0000ff,10783,A915 Porciúncula || B915 Toberin,BA915,ffffff,3
+4,0000ff,10784,Porciúncula,A915,ffffff,3
+4,0000ff,10786,Toberin,B915,ffffff,3
+4,0000ff,12489,Est. Terminal Norte ||  Germania,18-3,ffffff,3
+4,0000ff,12490,Est. Terminal Norte ||  Germania Ciclovía,18-3,ffffff,3
+4,0000ff,12491,Est. Terminal Norte ||  Germania Ciclovía,18-3,ffffff,3
+4,0000ff,12492,Est. Terminal Norte ||  Germania Ciclovía,18-3,ffffff,3
+4,0000ff,12493,Est. Terminal Norte  ||  Germania,18-3,ffffff,3
+4,0000ff,12695,Estación Mazurén  ||  Estación Mazurén,B926,ffffff,3
+5,0000ff,10753,Cerro Norte ||  AK 7 CL 163,18-9,ffffff,3
+5,0000ff,11518,San Cristobal Norte ||  Soratama,18-7,ffffff,3
+5,0000ff,12523,Unicentro ||  Unicerros,18-11,ffffff,3
+5,0000ff,12524,Unicentro ||  Unicerros,18-11,ffffff,3
+6,00ff00,11488,K86 Aeropuerto El Dorado || K86 Portal Eldorado Ciclovía,M86-K86,ffffff,3
+6,00ff00,12114,M86 KR 7 CLL 116 || K86  Portal ElDorado,MK86,ffffff,3
+6,00ff00,12116,KR 7 CLL 116 || K86 Portal ElDorado,M86,ffffff,3
+6,00ff00,12118,M86 KR 7 CLL 116 || K86 Portal ElDorado,MK86,ffffff,3
+6,00ff00,12120,KR 7 CLL 116 || K86 Portal ElDorado Ciclovía,M86,ffffff,3
+6,00ff00,12297,M82 CLL134 KR 7 || L82  Portal 20 de Julio,ML82,ffffff,3
+6,00ff00,12298,CLL134 KR 7,M82,ffffff,3
+6,00ff00,12299,CLL134 KR 7 || L82 Portal 20 de Julio,M82,ffffff,3
+6,00ff00,12300,CLL134 KR 7,M82,ffffff,3
+6,00ff00,12466,CLL134 KR 7 || L82 Portal 20 de Julio Ciclovía,M82,ffffff,3
+6,00ff00,12771,P85 AV 68 Calle 9 || M85 Museo Nacional,P85-M85,ffffff,3
+6,00ff00,12772,P85 AV 68 Calle 9 || M85 Museo Nacional Ciclovía,P85-M85,ffffff,3
+6,00ff00,12773,P85 AV 68 Calle 9 || M85 Museo Nacional,P85-M85,ffffff,3
+6,00ff00,12775,KR 7 CLL 116,M86,ffffff,3
+6,00ff00,12980,AV CL80 KR114,D81,ffffff,3
+6,00ff00,12981,Portal 20 de Julio,L81,ffffff,3
+6,00ff00,12984,M84 KR 7 CLL 73 || C84 Av. Suba K114 D,MC84,ffffff,3
+6,00ff00,12985,AV CL80 KR114 Ciclovía,D81,ffffff,3
+6,00ff00,12986,Portal 20 de Julio Ciclovía,L81,ffffff,3
+6,00ff00,12987,AV CL80 KR114,D81,ffffff,3
+6,00ff00,12988,Portal 20 de Julio,L81,ffffff,3
+6,00ff00,12989,KR 7 CLL 116 || K86 Portal ElDorado Ciclovía,M86,ffffff,3
+6,00ff00,12990,KR 7 CLL 116 || K86 Portal ElDorado Ciclovía,M86,ffffff,3
+6,00ff00,12991,CLL134 KR 7 || L82 Portal 20 de Julio Ciclovía,M82,ffffff,3
+6,00ff00,12992,M82 CLL134 KR 7 || L82 Portal 20 de Julio Ciclovía,M82-L82,ffffff,3
+6,00ff00,12994,M86 KR 7 CLL 116 || K86 Portal ElDorado,MK86,ffffff,3
+7,e30613,C_1,Tunal || Mirador del Paraiso,CABLE,ffffff,6

@@ -1,0 +1,8 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+1,Transmilenio-Troncal,http://www.sitp.gov.co,America/Bogota,es,18000115510,https://www.sitp.gov.co/publicaciones/40710/tarifas/
+2,Transmilenio-Alimentadores,http://www.sitp.gov.co,America/Bogota,es,18000115510,https://www.sitp.gov.co/publicaciones/40710/tarifas/
+6,Transmilenio-Dual,http://www.sitp.gov.co,America/Bogota,es,18000115510,https://www.sitp.gov.co/publicaciones/40710/tarifas/
+3,Zonal-Urbano,https://www.sitp.gov.co/publicaciones/40083/urbano/,America/Bogota,es,18000115510,https://www.sitp.gov.co/publicaciones/40710/tarifas/
+4,Zonal-Complementario,https://www.sitp.gov.co/publicaciones/40085/complementario/,America/Bogota,es,18000115510,https://www.sitp.gov.co/publicaciones/40710/tarifas/
+5,Zonal-Especial,https://www.sitp.gov.co/publicaciones/40087/especial/,America/Bogota,es,18000115510,https://www.sitp.gov.co/publicaciones/40710/tarifas/
+7,TransMiCable,https://www.transmilenio.gov.co/TransMiCable/,America/Bogota,es,18000115510,https://www.sitp.gov.co/publicaciones/40710/tarifas/
