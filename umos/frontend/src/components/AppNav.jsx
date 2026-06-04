@@ -12,7 +12,7 @@ export default function AppNav() {
     <nav style={{
       display: "flex", gap: 2, padding: "0.5rem 0.75rem",
       borderBottom: "1px solid var(--border)", background: "var(--surface)",
-      overflowX: "auto",
+      flexWrap: "wrap",
     }}>
       {LINKS.map(({ to, label, icon }) => (
         <NavLink
