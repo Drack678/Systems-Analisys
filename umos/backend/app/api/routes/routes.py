@@ -5,6 +5,7 @@ from app.core.database import get_db
 from app.schemas.route import RouteRequest, RouteResponse, ComputeRouteRequest, ComputeRouteResponse
 from app.services.route_service import RouteService
 from app.services.weather_service import get_current_rain
+from app.services.data_integration import get_ideam_data
 
 router = APIRouter(prefix="/routes", tags=["Routes"])
 
@@ -28,4 +29,11 @@ async def optimize(req: RouteRequest, db: AsyncSession = Depends(get_db)):
 
 @router.get("/weather")
 async def weather():
-    return await get_current_rain()
+    """Clima actual + pronóstico de los próximos 30 min."""
+    current = await get_current_rain()
+    ideam = await get_ideam_data()
+    ideam_data = ideam.get("data", {})
+    return {
+        **current,
+        "forecast_30min_mmh": ideam_data.get("forecast_30min_mmh", 0),
+    }

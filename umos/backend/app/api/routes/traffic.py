@@ -5,6 +5,7 @@ from app.core.database import get_db
 from app.models.traffic_event import TrafficEvent
 from app.schemas.traffic_event import TrafficEventCreate, TrafficEventResponse
 from app.services.traffic_service import EVENT_META, SEVERITY_FACTOR, get_traffic_summary
+from app.services.data_integration import set_simulation_mode
 
 router = APIRouter(prefix="/traffic", tags=["Traffic"])
 
@@ -43,6 +44,7 @@ async def summary(db: AsyncSession = Depends(get_db)):
 
 @router.post("/simulations/{scenario}", response_model=list[TrafficEventResponse])
 async def simulate(scenario: str, db: AsyncSession = Depends(get_db)):
+    set_simulation_mode(scenario)
     presets = {
         "peak": [
             ("CONGESTION", "HIGH", 4.6310, -74.0660, 750, "Hora pico en Universidades y Carrera 10"),

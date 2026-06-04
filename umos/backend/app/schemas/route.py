@@ -23,7 +23,7 @@ class ComputeRouteRequest(BaseModel):
     departure_time: datetime | None = None
     preferences: RoutePreferences = Field(default_factory=RoutePreferences)
     rain_intensity: float | None = None
-    transport_mode: Literal["driving", "transit", "cycling", "walking"] = "transit"
+transport_mode: Literal["driving", "transit", "sitp", "tm", "cycling", "walking"] = "transit"
 
 
 class RouteRequest(BaseModel):
@@ -52,8 +52,11 @@ class Segment(BaseModel):
     to_name: str
     duration_min: float
     distance_km: float
-    cost_cop: int
+    cost_cop: int = 0
     geometry: list[list[float]] = []
+    icon: str = ""
+    instruction: str = ""
+    color: str = "#64748b"
 
 
 class ETAConfidence(BaseModel):

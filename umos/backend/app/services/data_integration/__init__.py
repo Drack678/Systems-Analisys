@@ -6,8 +6,35 @@ from datetime import datetime, timezone
 from app.core.config import settings
 from app.services.circuit_breaker import CircuitBreaker
 
-# ── Fixtures estáticos (desarrollo / fallback) ───────────────────────────────
+# ─── Estado de simulación de tráfico ───
+# Se modifica desde el endpoint POST /api/v1/dashboard/simulate.
+# Aplica multiplicadores temporales sobre los datos baseline.
+_simulation_state = {
+    "mode": "clear",  # peak | rain | incident | clear
+    "started_at": 0.0,
+}
 
+
+def set_simulation_mode(mode: str) -> None:
+    """Cambia el modo de simulación. Llamado desde el endpoint."""
+    if mode in ("peak", "rain", "incident", "clear"):
+        _simulation_state["mode"] = mode
+        _simulation_state["started_at"] = time.time()
+
+
+def get_simulation_mode() -> str:
+    return _simulation_state["mode"]
+
+
+# Multiplicadores por modo. Pueden ajustarse para más drama visual.
+SIM_MULTIPLIERS = {
+    "clear":    {"occupancy": 0.45, "congestion": 0.35, "buses": 1.0},
+    "peak":     {"occupancy": 0.92, "congestion": 0.88, "buses": 1.15},
+    "rain":     {"occupancy": 0.80, "congestion": 0.95, "buses": 0.85},
+    "incident": {"occupancy": 0.65, "congestion": 0.98, "buses": 0.70},
+}
+
+# ── Fixtures estáticos (desarrollo / fallback) ───────────────────────────────
 STATIC_GTFS_ALERTS = [
     {"id": "A1", "route": "B74", "effect": "DELAY", "description": "Demora en Av. Caracas"},
 ]
@@ -32,21 +59,28 @@ STATIC_UDFJC_SCHEDULE = {
 
 
 async def _fetch_transmilenio_live() -> dict:
-    """Intenta GTFS-RT; en dev usa datos simulados."""
+    """Intenta GTFS-RT; en dev usa datos simulados modulados por el modo activo."""
+    mult = SIM_MULTIPLIERS.get(_simulation_state["mode"], SIM_MULTIPLIERS["clear"])
+    # Variación natural ±5% para que la gráfica nunca sea totalmente plana
+    import random
+    jitter = random.uniform(-0.03, 0.03)
     return {
         "trip_updates": 12,
-        "vehicle_positions": 847,
+        "vehicle_positions": int(847 * mult["buses"]),
         "service_alerts": STATIC_GTFS_ALERTS,
-        "universidades_occupancy": 0.78,
+        "universidades_occupancy": round(max(0.05, min(0.99, mult["occupancy"] + jitter)), 3),
         "timestamp": time.time(),
     }
 
 
 async def _fetch_sdm_live() -> dict:
+    mult = SIM_MULTIPLIERS.get(_simulation_state["mode"], SIM_MULTIPLIERS["clear"])
+    import random
+    jitter = random.uniform(-0.04, 0.04)
     return {
-        "congestion_index": 0.62,
+        "congestion_index": round(max(0.05, min(0.99, mult["congestion"] + jitter)), 3),
         "pico_y_placa": STATIC_PICO_Y_PLACA,
-        "active_incidents": 3,
+        "active_incidents": 3 if _simulation_state["mode"] != "incident" else 7,
         "timestamp": time.time(),
     }
 
