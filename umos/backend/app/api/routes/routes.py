@@ -29,7 +29,6 @@ async def optimize(req: RouteRequest, db: AsyncSession = Depends(get_db)):
 
 @router.get("/weather")
 async def weather():
-    """Clima actual + pronóstico de los próximos 30 min."""
     current = await get_current_rain()
     ideam = await get_ideam_data()
     ideam_data = ideam.get("data", {})
