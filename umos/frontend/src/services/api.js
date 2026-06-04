@@ -6,8 +6,22 @@ async function request(path, options = {}) {
     ...options,
   });
   if (!res.ok) {
-    const err = await res.json().catch(() => ({}));
-    throw new Error(err.detail || res.statusText);
+    let errMsg = res.statusText;
+    try {
+      const err = await res.json();
+      if (err.detail) {
+        if (typeof err.detail === "string") {
+          errMsg = err.detail;
+        } else if (Array.isArray(err.detail)) {
+          errMsg = err.detail.map(d => `${d.loc?.join('.') || 'field'}: ${d.msg}`).join(', ');
+        } else {
+          errMsg = JSON.stringify(err.detail);
+        }
+      }
+    } catch {
+      // ignore
+    }
+    throw new Error(errMsg);
   }
   return res.json();
 }

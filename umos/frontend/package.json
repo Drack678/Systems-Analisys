@@ -14,7 +14,8 @@
     "react-leaflet": "^4.2.1",
     "leaflet": "^1.9.4",
     "axios": "^1.7.2",
-    "lucide-react": "^0.396.0"
+    "lucide-react": "^0.396.0",
+    "recharts": "^2.12.7"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.0",
